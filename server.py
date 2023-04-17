@@ -40,6 +40,8 @@ class Server(interfaces.Server_interface):
         self.__logger.debug("Creating app object")
         self.__app = Flask("The Coral Planters", template_folder='./templates', static_folder='./static')
         self.__logger.debug("App object created")
+
+        self.app.add_url_rule("/", "index", self.index)
         return self.__app
 
     def run_test_server(self):
@@ -61,7 +63,39 @@ class Server(interfaces.Server_interface):
         """This method is called when a request is sent to the homepage"""
         try:
 
-            return render_template("index.html")
+            user_images = []
+            public_images = []
+            import copy
+            from base64 import b64encode
+            from PIL import Image
+
+            img = Image.open("static/assets/photo_test.jpeg")
+            img = img.resize((300, 300))
+            img.save("static/assets/photo_test.jpg")
+
+            img = Image.open("static/assets/photo_test2.png")
+            img = img.resize((300, 300))
+            img.save("static/assets/photo_test2.png")
+
+            
+            with open("static/assets/photo_test.jpg", 'rb') as image:
+                content = b64encode(image.read()).decode("utf-8")
+            with open("static/assets/photo_test2.png", 'rb') as image:
+                content2 = b64encode(image.read()).decode("utf-8") 
+
+            for i in range(10):
+                user_images.append(copy.copy(content)) 
+                public_images.append(copy.copy(content))
+                user_images.append(copy.copy(content2)) 
+                public_images.append(copy.copy(content2))
+            
+            if len(public_images) > 12: display_btn = True
+            else: display_btn = False
+
+            return render_template("index.html", 
+                                   user_corals=user_images,
+                                   public_corals=public_images,
+                                   display_btn=display_btn)
 
         except TemplateNotFound:
 
