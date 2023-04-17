@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     color: white;
-    background-image: url('../static/assets/bg.jpeg');
+    background-image: url('../static/assets/bg.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -25,7 +25,6 @@
 }
 
 form input{
-    border-radius: 25px;
     width: 18rem;
     height: 2.5rem;
     margin-bottom: 1rem;
@@ -39,6 +38,30 @@ form input{
 form label{
     margin-left: 0.5rem;
     margin-bottom: 0.2rem;
+}
+
+.transparent-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    opacity: 1;
+    border: white solid 0.01em;
+}
+
+.transparent-input:focus {
+    opacity: 1;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
 }
 
 form{

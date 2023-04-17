@@ -1,0 +1,12 @@
+#drop-zone {
+  width: 300px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  text-align: center;
+  padding: 50px;
+}
+
+#upload_img {
+  width: 3em;
+  height: auto;
+}
