@@ -1,0 +1,43 @@
+p, h1, h2, span {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.galery_image {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.hidden_img {
+    display: None;
+}
+
+.btn-custom {
+    color: white;
+    background-color: #242853;
+    border-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    text-align: center;
+    padding: 1%;
+  }
+
+.btn-custom:hover{
+    background-color:white;
+    color: #242853;
+    border-color: white;
+}
+
+.content {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
