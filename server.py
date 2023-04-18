@@ -69,25 +69,21 @@ class Server(interfaces.Server_interface):
             from base64 import b64encode
             from PIL import Image
 
+            ##############################################################
+            # CODE BELOW FOR TESTING PURPOSES ONLY, WILL BE REPLACED WITH
+            # ACTUAL IMAGES
+            ##############################################################
             img = Image.open("static/assets/photo_test.jpeg")
             img = img.resize((300, 300))
             img.save("static/assets/photo_test.jpg")
 
-            img = Image.open("static/assets/photo_test2.png")
-            img = img.resize((300, 300))
-            img.save("static/assets/photo_test2.png")
-
             
             with open("static/assets/photo_test.jpg", 'rb') as image:
                 content = b64encode(image.read()).decode("utf-8")
-            with open("static/assets/photo_test2.png", 'rb') as image:
-                content2 = b64encode(image.read()).decode("utf-8") 
 
-            for i in range(10):
+            for i in range(20):
                 user_images.append(copy.copy(content)) 
                 public_images.append(copy.copy(content))
-                user_images.append(copy.copy(content2)) 
-                public_images.append(copy.copy(content2))
             
             if len(public_images) > 12: display_btn = True
             else: display_btn = False
