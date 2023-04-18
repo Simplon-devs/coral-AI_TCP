@@ -42,6 +42,9 @@ class Server(interfaces.Server_interface):
         self.__logger.debug("App object created")
 
         self.app.add_url_rule("/", "index", self.index)
+        self.app.add_url_rule("/sign_in", "sign in", self.sign_in)
+        self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
+        self.app.add_url_rule("/upload", "upload", self.upload)
         return self.__app
 
     def run_test_server(self):
