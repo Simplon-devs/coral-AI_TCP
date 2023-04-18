@@ -96,3 +96,25 @@ class Server(interfaces.Server_interface):
         except TemplateNotFound:
 
             abort(404)
+    
+    def sign_in(self):
+        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+
+        try:
+            return render_template("sign_in.html")
+        except TemplateNotFound:
+            abort(404)
+
+    def sign_up(self):
+        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+        try:
+            return render_template("sign_up.html")
+        except TemplateNotFound:
+            abort(404)
+
+    def upload(self):
+        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+        try:
+            return render_template("upload.html")
+        except TemplateNotFound:
+            abort(404)
