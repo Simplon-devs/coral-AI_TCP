@@ -26,3 +26,6 @@ dropZone.addEventListener('drop', function(e) {
   reader.readAsDataURL(file);
 });
 
+document.getElementById("add-img-btn").addEventListener("click", function() {
+  document.getElementById("file-input").click();
+});

@@ -123,6 +123,7 @@ class Server(interfaces.Server_interface):
         except TemplateNotFound:
             abort(404)
 
+
     def coral_info(self):
         """
         Displays a page showing all information about a coral fragment.
