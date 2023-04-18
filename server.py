@@ -45,7 +45,7 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/sign_in", "sign in", self.sign_in)
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
         self.app.add_url_rule("/upload", "upload", self.upload)
-        self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info, methods=['POST'])
+        self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         return self.__app
 
     def run_test_server(self):
@@ -135,6 +135,8 @@ class Server(interfaces.Server_interface):
         - The coral's status (species, bleached or dead)
         """
 
-        if request.method == 'POST':
-            pass
+        try:
+            return render_template("coral_info.html")
+        except TemplateNotFound:
+            abort(404)
 
