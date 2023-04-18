@@ -1,6 +1,6 @@
 import logging
 import logging.handlers
-from flask import Flask, render_template, abort
+from flask import Flask, render_template, abort, request
 from jinja2 import TemplateNotFound
 
 import interfaces
@@ -45,6 +45,7 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/sign_in", "sign in", self.sign_in)
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
         self.app.add_url_rule("/upload", "upload", self.upload)
+        self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         return self.__app
 
     def run_test_server(self):
@@ -121,3 +122,22 @@ class Server(interfaces.Server_interface):
             return render_template("upload.html")
         except TemplateNotFound:
             abort(404)
+
+
+    def coral_info(self):
+        """
+        Displays a page showing all information about a coral fragment.
+        The page displays the following information:
+        - four pictures showing all sides of the structure hosting
+        the corals
+        - A bounding box on all pictures showing where the coral is located
+        on the structure
+        - The structure identifier
+        - The coral's status (species, bleached or dead)
+        """
+
+        try:
+            return render_template("coral_info.html")
+        except TemplateNotFound:
+            abort(404)
+
