@@ -4,19 +4,19 @@
     <head>
         <meta charset="utf-8">
         <title>The Coral Planters</title>
-        <link rel="stylesheet" href="../static/upload.css">
+        <link rel="stylesheet" href="{{ url_for('static',filename='styles/upload.css') }}">
     </head>
     
     <main>
 
         <div id="drop-zone">
-            <img id="upload_img" src="../static/assets/upload.png">
+            <img id="upload_img" src="{{ url_for('static',filename='assets/upload.png') }}">
             <p>Drag and drop your image here</p>
         </div>
           
 
     </main>
 
-    <script src="../static/js/upload.js"></script>
+    <script src="{{ url_for('static',filename='js/upload.js') }}"></script>
 
 </html>
