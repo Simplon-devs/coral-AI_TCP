@@ -11,12 +11,12 @@
 <body>
     {% extends "layout.html" %}
     {% block content %}
-    <div class="content" style='background-image: url(&quot;{{ url_for("static",filename="assets/bg.jpeg") }}&quot;);'>
+    <div class="content" style='background-image: url(&quot;{{ url_for("static",filename="assets/bg.jpg") }}&quot;);'>
         <div class="top">
             <h1>Créez un nouveau compte</h1>
             <div class="con">
             <h2>Vous êtes déjà inscrit ?</h2>
-            <h2><a href="{{ url_for('sign_in') }}">Se connecter</a></h2>
+            <h2><a href="/sign_in">Se connecter</a></h2>
             </div>
         </div>  
         <form method="POST" class="formulaire">

@@ -1,0 +1,1431 @@
+2023-04-17 12:42:52,273 - DEBUG - Creating app object
+2023-04-17 12:42:52,273 - DEBUG - Creating app object
+2023-04-17 12:42:52,278 - DEBUG - App object created
+2023-04-17 12:42:52,278 - DEBUG - App object created
+2023-04-17 12:42:52,280 - INFO - Running server in debug mode...
+2023-04-17 12:42:52,280 - INFO - Running server in debug mode...
+2023-04-17 12:42:52,302 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-17 12:42:52,302 - INFO - [33mPress CTRL+C to quit[0m
+2023-04-17 12:42:52,319 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 12:42:52,659 - DEBUG - Creating app object
+2023-04-17 12:42:52,659 - DEBUG - Creating app object
+2023-04-17 12:42:52,667 - DEBUG - App object created
+2023-04-17 12:42:52,667 - DEBUG - App object created
+2023-04-17 12:42:52,668 - INFO - Running server in debug mode...
+2023-04-17 12:42:52,668 - INFO - Running server in debug mode...
+2023-04-17 12:42:52,678 - WARNING -  * Debugger is active!
+2023-04-17 12:42:52,684 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 12:43:26,054 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\PIL\\Image.py', reloading
+2023-04-17 12:43:26,065 - INFO - 127.0.0.1 - - [17/Apr/2023 12:43:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-04-17 12:43:26,472 - INFO - 127.0.0.1 - - [17/Apr/2023 12:43:26] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-17 12:43:26,472 - INFO - 127.0.0.1 - - [17/Apr/2023 12:43:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-04-17 12:43:26,518 - INFO - 127.0.0.1 - - [17/Apr/2023 12:43:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-17 12:43:27,647 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 12:43:28,021 - DEBUG - Creating app object
+2023-04-17 12:43:28,021 - DEBUG - Creating app object
+2023-04-17 12:43:28,025 - DEBUG - App object created
+2023-04-17 12:43:28,025 - DEBUG - App object created
+2023-04-17 12:43:28,026 - INFO - Running server in debug mode...
+2023-04-17 12:43:28,026 - INFO - Running server in debug mode...
+2023-04-17 12:43:28,039 - WARNING -  * Debugger is active!
+2023-04-17 12:43:28,045 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 12:45:08,858 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:08] "GET / HTTP/1.1" 200 -
+2023-04-17 12:45:08,897 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:08] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 12:45:09,352 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 12:45:09,361 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 12:45:09,367 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/js/index.js HTTP/1.1" 200 -
+2023-04-17 12:45:09,372 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 12:45:09,372 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 12:45:09,374 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 12:45:09,375 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 12:45:09,380 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/assets/index_bg.jpg HTTP/1.1" 200 -
+2023-04-17 12:45:09,455 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:09] "GET /static/assets/favicon.ico HTTP/1.1" 200 -
+2023-04-17 12:45:19,109 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "GET / HTTP/1.1" 200 -
+2023-04-17 12:45:19,155 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 12:45:19,161 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 12:45:19,161 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 12:45:19,164 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 12:45:19,208 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 12:45:19,226 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 12:45:19,229 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 12:45:19,230 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 12:45:19,231 - INFO - 127.0.0.1 - - [17/Apr/2023 12:45:19] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 13:48:11,225 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Scripts\\conda-script.py', reloading
+2023-04-17 13:48:12,510 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 13:48:12,996 - DEBUG - Creating app object
+2023-04-17 13:48:12,996 - DEBUG - Creating app object
+2023-04-17 13:48:13,002 - DEBUG - App object created
+2023-04-17 13:48:13,002 - DEBUG - App object created
+2023-04-17 13:48:13,003 - INFO - Running server in debug mode...
+2023-04-17 13:48:13,003 - INFO - Running server in debug mode...
+2023-04-17 13:48:13,017 - WARNING -  * Debugger is active!
+2023-04-17 13:48:13,024 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 13:48:13,471 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing.py', reloading
+2023-04-17 13:48:15,012 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 13:48:15,534 - DEBUG - Creating app object
+2023-04-17 13:48:15,534 - DEBUG - Creating app object
+2023-04-17 13:48:15,541 - DEBUG - App object created
+2023-04-17 13:48:15,541 - DEBUG - App object created
+2023-04-17 13:48:15,543 - INFO - Running server in debug mode...
+2023-04-17 13:48:15,543 - INFO - Running server in debug mode...
+2023-04-17 13:48:15,558 - WARNING -  * Debugger is active!
+2023-04-17 13:48:15,565 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 13:48:18,339 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "GET / HTTP/1.1" 200 -
+2023-04-17 13:48:18,389 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 13:48:18,898 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 13:48:18,901 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 13:48:18,907 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 13:48:18,915 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 13:48:18,927 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 13:48:18,930 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 13:48:18,931 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 13:48:18,933 - INFO - 127.0.0.1 - - [17/Apr/2023 13:48:18] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 13:48:36,075 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 13:48:37,130 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 13:48:37,531 - DEBUG - Creating app object
+2023-04-17 13:48:37,531 - DEBUG - Creating app object
+2023-04-17 13:48:37,536 - DEBUG - App object created
+2023-04-17 13:48:37,536 - DEBUG - App object created
+2023-04-17 13:48:37,538 - INFO - Running server in debug mode...
+2023-04-17 13:48:37,538 - INFO - Running server in debug mode...
+2023-04-17 13:48:37,547 - WARNING -  * Debugger is active!
+2023-04-17 13:48:37,554 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 13:58:19,159 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "GET / HTTP/1.1" 200 -
+2023-04-17 13:58:19,212 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 13:58:19,684 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 13:58:19,685 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "GET /static/js/index.js HTTP/1.1" 200 -
+2023-04-17 13:58:19,685 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 13:58:19,699 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 13:58:19,710 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 13:58:19,713 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 13:58:19,715 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 13:58:19,716 - INFO - 127.0.0.1 - - [17/Apr/2023 13:58:19] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:00:36,069 - INFO - 127.0.0.1 - - [17/Apr/2023 14:00:36] "[33mGET /sign_in.html HTTP/1.1[0m" 404 -
+2023-04-17 14:00:36,119 - INFO - 127.0.0.1 - - [17/Apr/2023 14:00:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-04-17 14:02:33,756 - INFO - 127.0.0.1 - - [17/Apr/2023 14:02:33] "[33mGET /sign_in.html HTTP/1.1[0m" 404 -
+2023-04-17 14:06:27,882 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:06:27,882 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:06:27,883 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:06:28,915 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:10:00,736 - DEBUG - Creating app object
+2023-04-17 14:10:00,736 - DEBUG - Creating app object
+2023-04-17 14:10:00,740 - DEBUG - App object created
+2023-04-17 14:10:00,740 - DEBUG - App object created
+2023-04-17 14:10:00,741 - INFO - Running server in debug mode...
+2023-04-17 14:10:00,741 - INFO - Running server in debug mode...
+2023-04-17 14:10:00,764 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-17 14:10:00,764 - INFO - [33mPress CTRL+C to quit[0m
+2023-04-17 14:10:00,778 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:10:01,120 - DEBUG - Creating app object
+2023-04-17 14:10:01,120 - DEBUG - Creating app object
+2023-04-17 14:10:01,123 - DEBUG - App object created
+2023-04-17 14:10:01,123 - DEBUG - App object created
+2023-04-17 14:10:01,124 - INFO - Running server in debug mode...
+2023-04-17 14:10:01,124 - INFO - Running server in debug mode...
+2023-04-17 14:10:01,134 - WARNING -  * Debugger is active!
+2023-04-17 14:10:01,140 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:10:06,322 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:06] "[33mGET /sign_in.html HTTP/1.1[0m" 404 -
+2023-04-17 14:10:08,134 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "GET / HTTP/1.1" 200 -
+2023-04-17 14:10:08,174 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:10:08,631 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:10:08,631 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:10:08,631 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:10:08,647 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:10:08,655 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:10:08,656 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:10:08,657 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:10:08,659 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:08] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:10:09,424 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:09] "[33mGET /sign_in.html HTTP/1.1[0m" 404 -
+2023-04-17 14:10:29,955 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:10:29,958 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:10:29,959 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:10:29,960 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:10:30,999 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:10:31,350 - DEBUG - Creating app object
+2023-04-17 14:10:31,350 - DEBUG - Creating app object
+2023-04-17 14:10:31,354 - DEBUG - App object created
+2023-04-17 14:10:31,354 - DEBUG - App object created
+2023-04-17 14:10:31,355 - INFO - Running server in debug mode...
+2023-04-17 14:10:31,355 - INFO - Running server in debug mode...
+2023-04-17 14:10:31,365 - WARNING -  * Debugger is active!
+2023-04-17 14:10:31,371 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:10:45,618 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:10:45,620 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:10:45,621 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:10:46,658 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:10:47,032 - DEBUG - Creating app object
+2023-04-17 14:10:47,032 - DEBUG - Creating app object
+2023-04-17 14:10:47,037 - DEBUG - App object created
+2023-04-17 14:10:47,037 - DEBUG - App object created
+2023-04-17 14:10:47,038 - INFO - Running server in debug mode...
+2023-04-17 14:10:47,038 - INFO - Running server in debug mode...
+2023-04-17 14:10:47,049 - WARNING -  * Debugger is active!
+2023-04-17 14:10:47,055 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:10:49,338 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "GET / HTTP/1.1" 200 -
+2023-04-17 14:10:49,379 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:10:49,832 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:10:49,832 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:10:49,832 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:10:49,845 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:10:49,859 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:10:49,861 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:10:49,861 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:10:49,862 - INFO - 127.0.0.1 - - [17/Apr/2023 14:10:49] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:14:05,393 - INFO - 127.0.0.1 - - [17/Apr/2023 14:14:05] "[33mGET /sign_in.html HTTP/1.1[0m" 404 -
+2023-04-17 14:14:49,570 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:14:49,573 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:14:49,573 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:14:49,574 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:14:50,618 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:14:51,025 - DEBUG - Creating app object
+2023-04-17 14:14:51,025 - DEBUG - Creating app object
+2023-04-17 14:14:51,030 - DEBUG - App object created
+2023-04-17 14:14:51,030 - DEBUG - App object created
+2023-04-17 14:14:51,031 - INFO - Running server in debug mode...
+2023-04-17 14:14:51,031 - INFO - Running server in debug mode...
+2023-04-17 14:14:51,043 - WARNING -  * Debugger is active!
+2023-04-17 14:14:51,049 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:15:23,245 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2023-04-17 14:15:23,247 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+2023-04-17 14:15:23,249 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2023-04-17 14:15:23,252 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+2023-04-17 14:15:23,272 - INFO - 127.0.0.1 - - [17/Apr/2023 14:15:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-04-17 14:15:23,655 - INFO - 127.0.0.1 - - [17/Apr/2023 14:15:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-04-17 14:15:23,655 - INFO - 127.0.0.1 - - [17/Apr/2023 14:15:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-17 14:15:23,671 - INFO - 127.0.0.1 - - [17/Apr/2023 14:15:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-17 14:15:24,337 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:15:24,706 - DEBUG - Creating app object
+2023-04-17 14:15:24,706 - DEBUG - Creating app object
+2023-04-17 14:15:24,712 - DEBUG - App object created
+2023-04-17 14:15:24,712 - DEBUG - App object created
+2023-04-17 14:15:24,713 - INFO - Running server in debug mode...
+2023-04-17 14:15:24,713 - INFO - Running server in debug mode...
+2023-04-17 14:15:24,724 - WARNING -  * Debugger is active!
+2023-04-17 14:15:24,730 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:15:39,882 - INFO - 127.0.0.1 - - [17/Apr/2023 14:15:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-04-17 14:15:40,262 - INFO - 127.0.0.1 - - [17/Apr/2023 14:15:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-17 14:15:40,263 - INFO - 127.0.0.1 - - [17/Apr/2023 14:15:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-17 14:15:40,276 - INFO - 127.0.0.1 - - [17/Apr/2023 14:15:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-17 14:16:02,514 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:02,516 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:02,517 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:02,517 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:03,560 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:16:03,945 - DEBUG - Creating app object
+2023-04-17 14:16:03,945 - DEBUG - Creating app object
+2023-04-17 14:16:03,949 - DEBUG - App object created
+2023-04-17 14:16:03,949 - DEBUG - App object created
+2023-04-17 14:16:03,951 - INFO - Running server in debug mode...
+2023-04-17 14:16:03,951 - INFO - Running server in debug mode...
+2023-04-17 14:16:03,962 - WARNING -  * Debugger is active!
+2023-04-17 14:16:03,967 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:16:05,040 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-04-17 14:16:05,429 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-17 14:16:05,431 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-17 14:16:05,445 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-17 14:16:16,576 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:16,579 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:16,580 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:16,581 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:17,616 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:16:17,960 - DEBUG - Creating app object
+2023-04-17 14:16:17,960 - DEBUG - Creating app object
+2023-04-17 14:16:17,964 - DEBUG - App object created
+2023-04-17 14:16:17,964 - DEBUG - App object created
+2023-04-17 14:16:17,965 - INFO - Running server in debug mode...
+2023-04-17 14:16:17,965 - INFO - Running server in debug mode...
+2023-04-17 14:16:17,976 - WARNING -  * Debugger is active!
+2023-04-17 14:16:17,981 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:16:42,825 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:42,827 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:42,828 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:16:43,876 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:16:44,296 - DEBUG - Creating app object
+2023-04-17 14:16:44,296 - DEBUG - Creating app object
+2023-04-17 14:16:44,302 - DEBUG - App object created
+2023-04-17 14:16:44,302 - DEBUG - App object created
+2023-04-17 14:16:44,304 - INFO - Running server in debug mode...
+2023-04-17 14:16:44,304 - INFO - Running server in debug mode...
+2023-04-17 14:16:44,318 - WARNING -  * Debugger is active!
+2023-04-17 14:16:44,328 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:16:45,045 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-04-17 14:16:45,415 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-17 14:16:45,418 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-17 14:16:45,429 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-17 14:16:47,156 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-04-17 14:16:47,178 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:47] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-17 14:16:47,179 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:47] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-17 14:16:47,203 - INFO - 127.0.0.1 - - [17/Apr/2023 14:16:47] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-17 14:19:34,133 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:19:34,137 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:19:34,137 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:19:34,138 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 14:19:35,180 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:19:35,537 - DEBUG - Creating app object
+2023-04-17 14:19:35,537 - DEBUG - Creating app object
+2023-04-17 14:19:35,542 - DEBUG - App object created
+2023-04-17 14:19:35,542 - DEBUG - App object created
+2023-04-17 14:20:32,195 - DEBUG - Creating app object
+2023-04-17 14:20:32,195 - DEBUG - Creating app object
+2023-04-17 14:20:32,200 - DEBUG - App object created
+2023-04-17 14:20:32,200 - DEBUG - App object created
+2023-04-17 14:21:36,120 - DEBUG - Creating app object
+2023-04-17 14:21:36,120 - DEBUG - Creating app object
+2023-04-17 14:21:36,125 - DEBUG - App object created
+2023-04-17 14:21:36,125 - DEBUG - App object created
+2023-04-17 14:21:36,127 - INFO - Running server in debug mode...
+2023-04-17 14:21:36,127 - INFO - Running server in debug mode...
+2023-04-17 14:21:36,149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-17 14:21:36,149 - INFO - [33mPress CTRL+C to quit[0m
+2023-04-17 14:21:36,160 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:21:36,504 - DEBUG - Creating app object
+2023-04-17 14:21:36,504 - DEBUG - Creating app object
+2023-04-17 14:21:36,508 - DEBUG - App object created
+2023-04-17 14:21:36,508 - DEBUG - App object created
+2023-04-17 14:21:36,510 - INFO - Running server in debug mode...
+2023-04-17 14:21:36,510 - INFO - Running server in debug mode...
+2023-04-17 14:21:36,520 - WARNING -  * Debugger is active!
+2023-04-17 14:21:36,526 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:21:38,696 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\test_script.py', reloading
+2023-04-17 14:21:38,698 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\test_script.py', reloading
+2023-04-17 14:21:39,741 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:21:40,111 - DEBUG - Creating app object
+2023-04-17 14:21:40,111 - DEBUG - Creating app object
+2023-04-17 14:21:40,115 - DEBUG - App object created
+2023-04-17 14:21:40,115 - DEBUG - App object created
+2023-04-17 14:21:40,117 - INFO - Running server in debug mode...
+2023-04-17 14:21:40,117 - INFO - Running server in debug mode...
+2023-04-17 14:21:40,126 - WARNING -  * Debugger is active!
+2023-04-17 14:21:40,133 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:21:41,701 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:41] "GET / HTTP/1.1" 200 -
+2023-04-17 14:21:41,744 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:41] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:21:42,204 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:21:42,204 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:21:42,204 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:21:42,212 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:21:42,212 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:21:42,214 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:21:42,216 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:21:42,229 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:21:42,299 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:42] "GET /static/assets/favicon.ico HTTP/1.1" 200 -
+2023-04-17 14:21:52,538 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:52] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:21:52,566 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:52] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:21:52,577 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:52] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:21:52,644 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:52] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:21:52,655 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:52] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:21:52,658 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:52] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:21:52,659 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:52] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:21:52,666 - INFO - 127.0.0.1 - - [17/Apr/2023 14:21:52] "GET /static/assets/bg.jpg HTTP/1.1" 200 -
+2023-04-17 14:22:00,174 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:00] "[33mGET /Sign_up.html HTTP/1.1[0m" 404 -
+2023-04-17 14:22:43,331 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:43] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:22:43,380 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:43] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:22:43,381 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:43] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:22:43,413 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:43] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:22:43,417 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:43] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:22:43,418 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:43] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:22:43,420 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:43] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:22:43,423 - INFO - 127.0.0.1 - - [17/Apr/2023 14:22:43] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:23:58,230 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "GET / HTTP/1.1" 200 -
+2023-04-17 14:23:58,269 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:23:58,271 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:23:58,275 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:23:58,277 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:23:58,326 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:23:58,350 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:23:58,353 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:23:58,353 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:23:58,354 - INFO - 127.0.0.1 - - [17/Apr/2023 14:23:58] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:24:03,170 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:03] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:24:03,218 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:03] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:24:03,218 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:03] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:24:03,250 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:03] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:24:03,251 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:03] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:24:03,253 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:03] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:24:03,255 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:03] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:24:03,256 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:03] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:24:04,958 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:04] "GET /sign_up HTTP/1.1" 200 -
+2023-04-17 14:24:04,995 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:04] "GET /static/sign_up.css HTTP/1.1" 200 -
+2023-04-17 14:24:05,012 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:05] "[33mGET /static/background.jpg HTTP/1.1[0m" 404 -
+2023-04-17 14:24:05,014 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:05] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:24:25,376 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "GET /sign_up HTTP/1.1" 200 -
+2023-04-17 14:24:25,400 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "[36mGET /static/sign_up.css HTTP/1.1[0m" 304 -
+2023-04-17 14:24:25,402 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:24:25,424 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "[33mGET /static/background.jpg HTTP/1.1[0m" 404 -
+2023-04-17 14:24:25,439 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:25,442 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:25,444 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:25,445 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:25,450 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:25] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:24:50,172 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:50] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:24:50,217 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:50] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:24:50,221 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:50] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:24:50,254 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:50] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:50,256 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:50] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:50,258 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:50] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:50,259 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:50] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:55,064 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:55] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:24:55,097 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:55] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:24:55,098 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:55] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:24:55,128 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:55] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:55,130 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:55] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:55,132 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:55] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:55,135 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:55] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:24:55,137 - INFO - 127.0.0.1 - - [17/Apr/2023 14:24:55] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:25:20,535 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:20] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:25:20,559 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:20] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:25:20,560 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:20] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:25:20,601 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:20] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:20,604 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:20] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:20,607 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:20] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:20,609 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:20] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:20,611 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:20] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:25:21,637 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "GET /sign_up HTTP/1.1" 200 -
+2023-04-17 14:25:21,674 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "[36mGET /static/sign_up.css HTTP/1.1[0m" 304 -
+2023-04-17 14:25:21,681 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:25:21,699 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "[33mGET /static/background.jpg HTTP/1.1[0m" 404 -
+2023-04-17 14:25:21,714 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:21,716 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:21,718 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:21,719 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:21,723 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:21] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:25:25,350 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:25] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:25:25,399 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:25] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:25:25,400 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:25] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:25:25,430 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:25] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:25,432 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:25] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:25,435 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:25] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:25,436 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:25] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:25,436 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:25] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:25:27,394 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "GET /sign_up HTTP/1.1" 200 -
+2023-04-17 14:25:27,429 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "[36mGET /static/sign_up.css HTTP/1.1[0m" 304 -
+2023-04-17 14:25:27,430 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:25:27,467 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "[33mGET /static/background.jpg HTTP/1.1[0m" 404 -
+2023-04-17 14:25:27,472 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:27,474 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:27,478 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:27,478 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:25:27,481 - INFO - 127.0.0.1 - - [17/Apr/2023 14:25:27] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:13,877 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "GET /sign_up HTTP/1.1" 200 -
+2023-04-17 14:27:13,925 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "[36mGET /static/sign_up.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:13,926 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:13,941 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "[33mGET /static/background.jpg HTTP/1.1[0m" 404 -
+2023-04-17 14:27:13,954 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:13,956 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:13,961 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:13,962 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:13,963 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:13] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:17,453 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "GET /sign_up HTTP/1.1" 200 -
+2023-04-17 14:27:17,479 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "[36mGET /static/sign_up.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:17,484 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:17,513 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "[33mGET /static/background.jpg HTTP/1.1[0m" 404 -
+2023-04-17 14:27:17,523 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:17,526 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:17,527 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:17,530 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:17,532 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:17] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:42,007 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "GET /sign_up HTTP/1.1" 200 -
+2023-04-17 14:27:42,033 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "[36mGET /static/sign_up.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:42,034 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:42,056 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "[33mGET /static/background.jpg HTTP/1.1[0m" 404 -
+2023-04-17 14:27:42,077 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:42,079 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:42,081 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:42,084 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:42,086 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:42] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:43,346 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "GET / HTTP/1.1" 200 -
+2023-04-17 14:27:43,397 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:27:43,400 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:43,401 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:27:43,403 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:27:43,463 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:43,490 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:43,492 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:43,494 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:43,496 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:43] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:47,302 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:47] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:27:47,341 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:47] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:47,342 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:47] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:47,372 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:47] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:47,374 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:47] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:47,375 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:47] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:47,376 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:47] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:47,378 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:47] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:49,056 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "GET / HTTP/1.1" 200 -
+2023-04-17 14:27:49,099 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:27:49,100 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:49,104 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:27:49,106 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:49,151 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:49,170 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:49,173 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:49,174 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:49,175 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:49] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:50,393 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:50] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:27:50,438 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:50] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:50,438 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:50] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:50,469 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:50] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:50,472 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:50] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:50,473 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:50] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:50,474 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:50] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:50,477 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:50] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:51,768 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "GET / HTTP/1.1" 200 -
+2023-04-17 14:27:51,811 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:27:51,812 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:51,816 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:27:51,817 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:51,865 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:51,884 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:51,886 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:51,886 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:51,888 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:51] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:53,394 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "GET / HTTP/1.1" 200 -
+2023-04-17 14:27:53,438 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:27:53,439 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:53,443 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:27:53,445 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:27:53,492 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:27:53,514 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:53,516 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:53,518 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:27:53,519 - INFO - 127.0.0.1 - - [17/Apr/2023 14:27:53] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:39,758 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "GET / HTTP/1.1" 200 -
+2023-04-17 14:29:39,807 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:29:39,813 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:29:39,815 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:29:39,815 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:29:39,859 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:29:39,875 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:39,877 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:39,878 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:39,880 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:39] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:41,961 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:41] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:29:42,013 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:42] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:29:42,014 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:42] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:29:42,040 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:42] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:42,042 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:42] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:42,044 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:42] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:42,047 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:42] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:29:42,048 - INFO - 127.0.0.1 - - [17/Apr/2023 14:29:42] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:32:02,336 - INFO - 127.0.0.1 - - [17/Apr/2023 14:32:02] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:32:02,388 - INFO - 127.0.0.1 - - [17/Apr/2023 14:32:02] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:32:02,389 - INFO - 127.0.0.1 - - [17/Apr/2023 14:32:02] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:32:02,548 - INFO - 127.0.0.1 - - [17/Apr/2023 14:32:02] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:32:02,550 - INFO - 127.0.0.1 - - [17/Apr/2023 14:32:02] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:32:02,552 - INFO - 127.0.0.1 - - [17/Apr/2023 14:32:02] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:32:02,553 - INFO - 127.0.0.1 - - [17/Apr/2023 14:32:02] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:32:02,595 - INFO - 127.0.0.1 - - [17/Apr/2023 14:32:02] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:32,456 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:36:32,495 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:36:32,497 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:36:32,561 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:36:32,564 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:36:32,567 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:36:32,569 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:36:32,570 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:32,639 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-04-17 14:36:38,262 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:38] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:36:38,322 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:38] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:38,326 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:38] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:38,349 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:38] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:38,350 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:38] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:38,352 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:38] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:38,355 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:38] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:38,364 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:38] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:39,769 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:39] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:36:39,801 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:39] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:39,803 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:39] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:39,832 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:39] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:39,834 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:39] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:39,835 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:39] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:39,837 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:39] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:39,841 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:39] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:43,681 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "GET / HTTP/1.1" 200 -
+2023-04-17 14:36:43,730 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:43,732 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:36:43,734 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:36:43,736 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "GET /static/js/index.js HTTP/1.1" 200 -
+2023-04-17 14:36:43,777 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:43,797 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:43,799 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:43,801 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:43,802 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:43] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,405 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "GET / HTTP/1.1" 200 -
+2023-04-17 14:36:45,458 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:36:45,459 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,463 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,464 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,514 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,538 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,540 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,541 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,542 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,817 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "GET / HTTP/1.1" 200 -
+2023-04-17 14:36:45,861 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:36:45,863 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,869 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,870 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,912 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,940 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,941 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,943 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:45,944 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:45] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,185 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "GET / HTTP/1.1" 200 -
+2023-04-17 14:36:46,221 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:36:46,222 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,225 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,228 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,274 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,291 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,293 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,295 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,296 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,561 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "GET / HTTP/1.1" 200 -
+2023-04-17 14:36:46,601 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:36:46,601 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,606 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,607 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,654 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,676 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,678 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,680 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:36:46,681 - INFO - 127.0.0.1 - - [17/Apr/2023 14:36:46] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:37:48,795 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "GET / HTTP/1.1" 200 -
+2023-04-17 14:37:48,834 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:37:48,839 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:37:48,839 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:37:48,840 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:37:48,896 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:37:48,921 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:37:48,925 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:37:48,927 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:37:48,927 - INFO - 127.0.0.1 - - [17/Apr/2023 14:37:48] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,383 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "GET / HTTP/1.1" 200 -
+2023-04-17 14:38:03,419 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,420 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:38:03,425 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,427 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,479 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,503 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,505 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,507 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,509 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,696 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "GET / HTTP/1.1" 200 -
+2023-04-17 14:38:03,734 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:38:03,734 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,740 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,741 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,780 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,813 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,815 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,817 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:03,818 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:03] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:05,479 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "GET / HTTP/1.1" 200 -
+2023-04-17 14:38:05,521 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:38:05,522 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:38:05,527 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:38:05,528 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:38:05,574 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:38:05,597 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:05,600 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:05,601 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:38:05,603 - INFO - 127.0.0.1 - - [17/Apr/2023 14:38:05] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:11,720 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:11] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:39:11,765 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:11] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:39:11,768 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:11] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:39:11,800 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:11] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:11,802 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:11] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:11,803 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:11] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:11,806 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:11] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:11,809 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:11] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:39:13,817 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "GET /sign_up HTTP/1.1" 200 -
+2023-04-17 14:39:13,857 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:39:13,858 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "GET /static/sign_up.css HTTP/1.1" 200 -
+2023-04-17 14:39:13,880 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "[33mGET /static/background.jpg HTTP/1.1[0m" 404 -
+2023-04-17 14:39:13,894 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:13,897 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:13,899 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:13,901 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:13,903 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:13] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:39:15,089 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "GET / HTTP/1.1" 200 -
+2023-04-17 14:39:15,132 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:39:15,133 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:39:15,137 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:39:15,140 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:39:15,183 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:39:15,196 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:15,198 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:15,199 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:15,201 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:15] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:45,962 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:45] "GET / HTTP/1.1" 200 -
+2023-04-17 14:39:45,995 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:45] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:39:45,997 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:45] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:39:46,000 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:46] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:39:46,003 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:46] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:39:46,034 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:46] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:39:46,076 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:46] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:46,078 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:46] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:46,080 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:46] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:39:46,081 - INFO - 127.0.0.1 - - [17/Apr/2023 14:39:46] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:40:38,405 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "GET / HTTP/1.1" 200 -
+2023-04-17 14:40:38,440 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:40:38,445 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:40:38,447 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:40:38,449 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:40:38,496 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:40:38,518 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:40:38,520 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:40:38,524 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:40:38,524 - INFO - 127.0.0.1 - - [17/Apr/2023 14:40:38] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:42:05,979 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:05] "GET / HTTP/1.1" 200 -
+2023-04-17 14:42:06,008 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:42:06,012 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:42:06,012 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:42:06,016 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:42:06,071 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:42:06,091 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:42:06,092 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:42:06,093 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:42:06,094 - INFO - 127.0.0.1 - - [17/Apr/2023 14:42:06] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:43:25,847 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "GET / HTTP/1.1" 200 -
+2023-04-17 14:43:25,880 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 14:43:25,883 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:43:25,884 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:43:25,888 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:43:25,936 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:43:25,959 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:43:25,961 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:43:25,962 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:43:25,963 - INFO - 127.0.0.1 - - [17/Apr/2023 14:43:25] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:44:05,897 - INFO - 127.0.0.1 - - [17/Apr/2023 14:44:05] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:44:05,941 - INFO - 127.0.0.1 - - [17/Apr/2023 14:44:05] "[36mGET /static/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 14:44:05,941 - INFO - 127.0.0.1 - - [17/Apr/2023 14:44:05] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:44:05,974 - INFO - 127.0.0.1 - - [17/Apr/2023 14:44:05] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:44:05,977 - INFO - 127.0.0.1 - - [17/Apr/2023 14:44:05] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:44:05,980 - INFO - 127.0.0.1 - - [17/Apr/2023 14:44:05] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:44:05,981 - INFO - 127.0.0.1 - - [17/Apr/2023 14:44:05] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:44:05,983 - INFO - 127.0.0.1 - - [17/Apr/2023 14:44:05] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:45:08,953 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:08] "GET / HTTP/1.1" 200 -
+2023-04-17 14:45:08,993 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:08] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:45:08,995 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:08] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:45:08,996 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:08] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:45:09,000 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:09] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:45:09,049 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:09] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:45:09,077 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:09] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:45:09,079 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:09] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:45:09,081 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:09] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:45:09,083 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:09] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:45:15,794 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:15] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:45:15,839 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:15] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:45:15,844 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:15] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:45:15,871 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:15] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:45:15,874 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:15] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:45:15,876 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:15] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:45:15,880 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:15] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:45:15,886 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:15] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:45:50,728 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "GET / HTTP/1.1" 200 -
+2023-04-17 14:45:50,771 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:45:50,773 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:45:50,773 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:45:50,777 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:45:50,827 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:45:50,857 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:45:50,857 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:45:50,860 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:45:50,862 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:50] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:45:52,521 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:52] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:45:52,558 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:52] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:45:52,560 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:52] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:45:52,593 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:52] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:45:52,596 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:52] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:45:52,597 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:52] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:45:52,602 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:52] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:45:52,603 - INFO - 127.0.0.1 - - [17/Apr/2023 14:45:52] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:46:35,781 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "GET / HTTP/1.1" 200 -
+2023-04-17 14:46:35,812 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 14:46:35,813 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 14:46:35,813 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 14:46:35,818 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 14:46:35,872 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:46:35,894 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 14:46:35,897 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 14:46:35,898 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 14:46:35,899 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:35] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 14:46:40,794 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:40] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2023-04-17 14:46:42,386 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:42] "GET / HTTP/1.1" 200 -
+2023-04-17 14:46:46,557 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:46] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 14:46:46,595 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:46] "GET /static/sign_in.css HTTP/1.1" 200 -
+2023-04-17 14:46:46,596 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:46] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 14:46:46,622 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:46] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 14:46:46,623 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:46] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 14:46:46,625 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:46] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 14:46:46,628 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:46] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 14:46:46,631 - INFO - 127.0.0.1 - - [17/Apr/2023 14:46:46] "[36mGET /static/assets/bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 14:48:11,694 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Scripts\\conda-script.py', reloading
+2023-04-17 14:48:11,952 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:48:12,360 - DEBUG - Creating app object
+2023-04-17 14:48:12,360 - DEBUG - Creating app object
+2023-04-17 14:48:12,366 - DEBUG - App object created
+2023-04-17 14:48:12,366 - DEBUG - App object created
+2023-04-17 14:48:12,369 - INFO - Running server in debug mode...
+2023-04-17 14:48:12,369 - INFO - Running server in debug mode...
+2023-04-17 14:48:12,386 - WARNING -  * Debugger is active!
+2023-04-17 14:48:12,398 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:48:14,226 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py', reloading
+2023-04-17 14:48:14,539 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:48:14,941 - DEBUG - Creating app object
+2023-04-17 14:48:14,941 - DEBUG - Creating app object
+2023-04-17 14:48:14,947 - DEBUG - App object created
+2023-04-17 14:48:14,947 - DEBUG - App object created
+2023-04-17 14:48:14,950 - INFO - Running server in debug mode...
+2023-04-17 14:48:14,950 - INFO - Running server in debug mode...
+2023-04-17 14:48:14,961 - WARNING -  * Debugger is active!
+2023-04-17 14:48:14,968 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 14:48:15,168 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing.py', reloading
+2023-04-17 14:48:16,791 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 14:48:17,167 - DEBUG - Creating app object
+2023-04-17 14:48:17,167 - DEBUG - Creating app object
+2023-04-17 14:48:17,172 - DEBUG - App object created
+2023-04-17 14:48:17,172 - DEBUG - App object created
+2023-04-17 14:48:17,174 - INFO - Running server in debug mode...
+2023-04-17 14:48:17,174 - INFO - Running server in debug mode...
+2023-04-17 14:48:17,187 - WARNING -  * Debugger is active!
+2023-04-17 14:48:17,193 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 15:48:19,816 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Scripts\\conda-script.py', reloading
+2023-04-17 15:48:20,236 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py', reloading
+2023-04-17 15:48:20,466 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 15:48:20,905 - DEBUG - Creating app object
+2023-04-17 15:48:20,905 - DEBUG - Creating app object
+2023-04-17 15:48:20,911 - DEBUG - App object created
+2023-04-17 15:48:20,911 - DEBUG - App object created
+2023-04-17 15:48:20,913 - INFO - Running server in debug mode...
+2023-04-17 15:48:20,913 - INFO - Running server in debug mode...
+2023-04-17 15:48:20,929 - WARNING -  * Debugger is active!
+2023-04-17 15:48:20,938 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 15:48:21,411 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing.py', reloading
+2023-04-17 15:48:23,012 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 15:48:23,440 - DEBUG - Creating app object
+2023-04-17 15:48:23,440 - DEBUG - Creating app object
+2023-04-17 15:48:23,447 - DEBUG - App object created
+2023-04-17 15:48:23,447 - DEBUG - App object created
+2023-04-17 15:48:23,451 - INFO - Running server in debug mode...
+2023-04-17 15:48:23,451 - INFO - Running server in debug mode...
+2023-04-17 15:48:23,465 - WARNING -  * Debugger is active!
+2023-04-17 15:48:23,472 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 16:47:44,662 - INFO - 127.0.0.1 - - [17/Apr/2023 16:47:44] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2023-04-17 16:47:44,714 - INFO - 127.0.0.1 - - [17/Apr/2023 16:47:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-04-17 16:47:46,210 - INFO - 127.0.0.1 - - [17/Apr/2023 16:47:46] "GET / HTTP/1.1" 200 -
+2023-04-17 16:48:33,592 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Scripts\\conda-script.py', reloading
+2023-04-17 16:48:33,684 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 16:48:34,077 - DEBUG - Creating app object
+2023-04-17 16:48:34,077 - DEBUG - Creating app object
+2023-04-17 16:48:34,082 - DEBUG - App object created
+2023-04-17 16:48:34,082 - DEBUG - App object created
+2023-04-17 16:48:34,085 - INFO - Running server in debug mode...
+2023-04-17 16:48:34,085 - INFO - Running server in debug mode...
+2023-04-17 16:48:34,097 - WARNING -  * Debugger is active!
+2023-04-17 16:48:34,103 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 16:48:34,887 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing.py', reloading
+2023-04-17 16:48:35,191 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 16:48:35,577 - DEBUG - Creating app object
+2023-04-17 16:48:35,577 - DEBUG - Creating app object
+2023-04-17 16:48:35,583 - DEBUG - App object created
+2023-04-17 16:48:35,583 - DEBUG - App object created
+2023-04-17 16:48:35,585 - INFO - Running server in debug mode...
+2023-04-17 16:48:35,585 - INFO - Running server in debug mode...
+2023-04-17 16:48:35,598 - WARNING -  * Debugger is active!
+2023-04-17 16:48:35,605 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 16:55:06,563 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:06] "GET / HTTP/1.1" 200 -
+2023-04-17 16:55:06,600 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:06] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 16:55:07,073 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:07] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 16:55:07,074 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:07] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 16:55:07,074 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:07] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 16:55:07,089 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:07] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 16:55:07,097 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:07] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 16:55:07,101 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:07] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 16:55:07,103 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:07] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 16:55:07,104 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:07] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 16:55:38,054 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "GET / HTTP/1.1" 200 -
+2023-04-17 16:55:38,093 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 16:55:38,095 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 16:55:38,097 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 16:55:38,099 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 16:55:38,145 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 16:55:38,161 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 16:55:38,164 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 16:55:38,166 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 16:55:38,167 - INFO - 127.0.0.1 - - [17/Apr/2023 16:55:38] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 16:59:08,864 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "GET / HTTP/1.1" 200 -
+2023-04-17 16:59:08,907 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 16:59:08,908 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 16:59:08,910 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 16:59:08,913 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "GET /static/layout.css HTTP/1.1" 200 -
+2023-04-17 16:59:08,953 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 16:59:08,979 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 16:59:08,980 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 16:59:08,980 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 16:59:08,982 - INFO - 127.0.0.1 - - [17/Apr/2023 16:59:08] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:00:30,168 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "GET / HTTP/1.1" 200 -
+2023-04-17 17:00:30,243 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 17:00:30,249 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 17:00:30,250 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 17:00:30,251 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 17:00:30,445 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 17:00:30,488 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 17:00:30,491 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 17:00:30,491 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 17:00:30,492 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 17:00:30,603 - INFO - 127.0.0.1 - - [17/Apr/2023 17:00:30] "GET /static/assets/favicon.ico HTTP/1.1" 200 -
+2023-04-17 17:01:33,215 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "GET / HTTP/1.1" 200 -
+2023-04-17 17:01:33,264 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 17:01:33,266 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 17:01:33,266 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 17:01:33,382 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 17:01:33,385 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 17:01:33,386 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 17:01:33,391 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 17:01:33,393 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:33] "GET /static/assets/linkedin.png HTTP/1.1" 200 -
+2023-04-17 17:01:47,848 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:47] "GET / HTTP/1.1" 200 -
+2023-04-17 17:01:47,895 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:47] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 17:01:47,896 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:47] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 17:01:47,901 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:47] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 17:01:47,902 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:47] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 17:01:48,017 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:48] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 17:01:48,047 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:48] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:01:48,049 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:48] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:01:48,052 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:48] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:01:48,054 - INFO - 127.0.0.1 - - [17/Apr/2023 17:01:48] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:02:29,414 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "GET / HTTP/1.1" 200 -
+2023-04-17 17:02:29,481 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 17:02:29,483 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 17:02:29,486 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 17:02:29,584 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 17:02:29,632 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:02:29,633 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:02:29,637 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:02:29,638 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:29] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:02:36,390 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "GET / HTTP/1.1" 200 -
+2023-04-17 17:02:36,440 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 17:02:36,443 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 17:02:36,446 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[33mGET /static/styles/layout.css HTTP/1.1[0m" 404 -
+2023-04-17 17:02:36,446 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[36mGET /static/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 17:02:36,548 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 17:02:36,582 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:02:36,582 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:02:36,583 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:02:36,585 - INFO - 127.0.0.1 - - [17/Apr/2023 17:02:36] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:05:14,333 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:14] "[33mGET / HTTP/1.1[0m" 404 -
+2023-04-17 17:05:14,410 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-04-17 17:05:20,213 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:20] "[33mGET / HTTP/1.1[0m" 404 -
+2023-04-17 17:05:21,528 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2023-04-17 17:05:21,530 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-17 17:05:21,531 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+2023-04-17 17:05:21,533 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2023-04-17 17:05:21,535 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2023-04-17 17:05:21,557 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:21] "[35m[1mGET /sign_up HTTP/1.1[0m" 500 -
+2023-04-17 17:05:21,603 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:21] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 17:05:22,330 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:22] "[35m[1mGET /sign_up HTTP/1.1[0m" 500 -
+2023-04-17 17:05:22,373 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:22] "GET /sign_up?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-17 17:05:22,373 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:22] "GET /sign_up?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-04-17 17:05:22,389 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:22] "GET /sign_up?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-17 17:05:22,398 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:22] "[36mGET /sign_up?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-17 17:05:22,642 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 17:05:23,113 - DEBUG - Creating app object
+2023-04-17 17:05:23,113 - DEBUG - Creating app object
+2023-04-17 17:05:23,119 - DEBUG - App object created
+2023-04-17 17:05:23,119 - DEBUG - App object created
+2023-04-17 17:05:23,122 - INFO - Running server in debug mode...
+2023-04-17 17:05:23,122 - INFO - Running server in debug mode...
+2023-04-17 17:05:23,133 - WARNING -  * Debugger is active!
+2023-04-17 17:05:23,139 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 17:05:47,239 - DEBUG - Creating app object
+2023-04-17 17:05:47,239 - DEBUG - Creating app object
+2023-04-17 17:05:47,243 - DEBUG - App object created
+2023-04-17 17:05:47,243 - DEBUG - App object created
+2023-04-17 17:05:47,245 - INFO - Running server in debug mode...
+2023-04-17 17:05:47,245 - INFO - Running server in debug mode...
+2023-04-17 17:05:47,264 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-17 17:05:47,264 - INFO - [33mPress CTRL+C to quit[0m
+2023-04-17 17:05:47,277 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 17:05:47,619 - DEBUG - Creating app object
+2023-04-17 17:05:47,619 - DEBUG - Creating app object
+2023-04-17 17:05:47,624 - DEBUG - App object created
+2023-04-17 17:05:47,624 - DEBUG - App object created
+2023-04-17 17:05:47,626 - INFO - Running server in debug mode...
+2023-04-17 17:05:47,626 - INFO - Running server in debug mode...
+2023-04-17 17:05:47,636 - WARNING -  * Debugger is active!
+2023-04-17 17:05:47,641 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 17:05:50,091 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:50] "[35m[1mGET /sign_up HTTP/1.1[0m" 500 -
+2023-04-17 17:05:50,482 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:50] "GET /sign_up?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-04-17 17:05:50,483 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:50] "GET /sign_up?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-17 17:05:50,505 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:50] "[36mGET /sign_up?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-17 17:05:52,435 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:52] "[35m[1mGET /sign_up HTTP/1.1[0m" 500 -
+2023-04-17 17:05:52,468 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:52] "[36mGET /sign_up?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-17 17:05:52,468 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:52] "[36mGET /sign_up?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-17 17:05:52,486 - INFO - 127.0.0.1 - - [17/Apr/2023 17:05:52] "[36mGET /sign_up?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-17 17:06:18,231 - INFO - 127.0.0.1 - - [17/Apr/2023 17:06:18] "[33mGET / HTTP/1.1[0m" 404 -
+2023-04-17 17:09:11,631 - DEBUG - Creating app object
+2023-04-17 17:09:11,631 - DEBUG - Creating app object
+2023-04-17 17:09:11,636 - DEBUG - App object created
+2023-04-17 17:09:11,636 - DEBUG - App object created
+2023-04-17 17:09:11,638 - INFO - Running server in debug mode...
+2023-04-17 17:09:11,638 - INFO - Running server in debug mode...
+2023-04-17 17:09:11,661 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-17 17:09:11,662 - INFO - [33mPress CTRL+C to quit[0m
+2023-04-17 17:09:11,674 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 17:09:12,020 - DEBUG - Creating app object
+2023-04-17 17:09:12,020 - DEBUG - Creating app object
+2023-04-17 17:09:12,025 - DEBUG - App object created
+2023-04-17 17:09:12,025 - DEBUG - App object created
+2023-04-17 17:09:12,028 - INFO - Running server in debug mode...
+2023-04-17 17:09:12,028 - INFO - Running server in debug mode...
+2023-04-17 17:09:12,039 - WARNING -  * Debugger is active!
+2023-04-17 17:09:12,045 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 17:09:15,306 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "GET / HTTP/1.1" 200 -
+2023-04-17 17:09:15,356 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:09:15,813 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 17:09:15,814 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 17:09:15,814 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-17 17:09:15,821 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:09:15,821 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:09:15,823 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:09:15,824 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:09:15,835 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:09:15,838 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:15] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 17:09:23,120 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:23] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-17 17:09:34,742 - INFO - 127.0.0.1 - - [17/Apr/2023 17:09:34] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 17:10:03,545 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:03] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:10:03,614 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:10:03,618 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:03] "[33mGET /static/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:10:03,836 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:03] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 17:10:03,838 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:03] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 17:10:03,838 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:03] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 17:10:03,839 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:03] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:10:03,965 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-04-17 17:10:42,227 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "GET / HTTP/1.1" 200 -
+2023-04-17 17:10:42,282 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 17:10:42,285 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-17 17:10:42,286 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-17 17:10:42,288 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:10:42,414 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:10:42,414 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 17:10:42,442 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-17 17:10:42,444 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-17 17:10:42,447 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-17 17:10:42,448 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:42] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:10:44,177 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:44] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:10:44,243 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:44] "[33mGET /static/css/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:10:44,247 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:10:44,367 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:44] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:10:44,369 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:44] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:10:44,371 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:44] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:10:44,372 - INFO - 127.0.0.1 - - [17/Apr/2023 17:10:44] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:24,119 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:24] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:11:24,165 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:24] "[33mGET /static/css/sign_in HTTP/1.1[0m" 404 -
+2023-04-17 17:11:24,167 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:24] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:11:24,312 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:24] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:24,315 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:24] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:24,318 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:24] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:24,319 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:24] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:43,832 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:43] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:11:43,880 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:43] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:11:43,881 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:43] "GET /static/styles/sign_in.css HTTP/1.1" 200 -
+2023-04-17 17:11:44,014 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:44] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:44,017 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:44] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:44,020 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:44] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:44,022 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:44] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:11:44,023 - INFO - 127.0.0.1 - - [17/Apr/2023 17:11:44] "[33mGET /static/static/assets/bg.jpg HTTP/1.1[0m" 404 -
+2023-04-17 17:13:05,698 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:05] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:13:05,779 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:05] "[33mGET /static/css/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:13:05,782 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:05] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:13:05,821 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:05] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:13:05,821 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:05] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:13:05,823 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:05] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:13:05,824 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:05] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:13:13,488 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:13] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:13:13,540 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:13] "[33mGET /static/css/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:13:13,544 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:13] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:13:13,677 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:13] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:13:13,681 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:13] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:13:13,686 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:13] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:13:13,686 - INFO - 127.0.0.1 - - [17/Apr/2023 17:13:13] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:14:17,750 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:17] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:14:17,801 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:17] "[33mGET /static/css/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:14:17,804 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:17] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:14:17,842 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:17] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:14:18,013 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:18] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:14:18,015 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:18] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:14:18,016 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:18] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:14:18,019 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:18] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:14:36,519 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:36] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:14:36,573 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:36] "[33mGET /static/css/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:14:36,576 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:36] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:14:36,715 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:36] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:14:36,718 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:36] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:14:36,721 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:36] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:14:36,722 - INFO - 127.0.0.1 - - [17/Apr/2023 17:14:36] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:18,068 - DEBUG - Creating app object
+2023-04-17 17:15:18,068 - DEBUG - Creating app object
+2023-04-17 17:15:18,073 - DEBUG - App object created
+2023-04-17 17:15:18,073 - DEBUG - App object created
+2023-04-17 17:15:18,075 - INFO - Running server in debug mode...
+2023-04-17 17:15:18,075 - INFO - Running server in debug mode...
+2023-04-17 17:15:18,099 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-17 17:15:18,099 - INFO - [33mPress CTRL+C to quit[0m
+2023-04-17 17:15:18,112 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-17 17:15:18,477 - DEBUG - Creating app object
+2023-04-17 17:15:18,477 - DEBUG - Creating app object
+2023-04-17 17:15:18,481 - DEBUG - App object created
+2023-04-17 17:15:18,481 - DEBUG - App object created
+2023-04-17 17:15:18,483 - INFO - Running server in debug mode...
+2023-04-17 17:15:18,483 - INFO - Running server in debug mode...
+2023-04-17 17:15:18,494 - WARNING -  * Debugger is active!
+2023-04-17 17:15:18,499 - INFO -  * Debugger PIN: 114-056-198
+2023-04-17 17:15:19,928 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:19] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:15:19,977 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:19] "[33mGET /static/css/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:15:19,979 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:19] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:15:20,696 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:20] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:20,696 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:20] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:20,697 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:20] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:20,697 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:20] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,377 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "GET / HTTP/1.1" 200 -
+2023-04-17 17:15:29,441 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,443 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[36mGET /static/styles/layout.css HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,447 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:15:29,448 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,458 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,459 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,461 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,464 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,508 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-17 17:15:29,508 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:29] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:15:31,149 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:31] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:15:31,193 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:31] "[33mGET /static/css/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:15:31,200 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:31] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:15:31,237 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:31] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:31,240 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:31] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:31,241 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:31] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:15:31,243 - INFO - 127.0.0.1 - - [17/Apr/2023 17:15:31] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-17 17:16:38,609 - INFO - 127.0.0.1 - - [17/Apr/2023 17:16:38] "[33mGET /static/css/sign_in.css HTTP/1.1[0m" 404 -
+2023-04-17 17:17:01,703 - INFO - 127.0.0.1 - - [17/Apr/2023 17:17:01] "GET /sign_in HTTP/1.1" 200 -
+2023-04-17 17:17:01,748 - INFO - 127.0.0.1 - - [17/Apr/2023 17:17:01] "[36mGET /static/styles/sign_in.css HTTP/1.1[0m" 304 -
+2023-04-17 17:17:01,752 - INFO - 127.0.0.1 - - [17/Apr/2023 17:17:01] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-17 17:17:01,850 - INFO - 127.0.0.1 - - [17/Apr/2023 17:17:01] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-17 17:17:01,854 - INFO - 127.0.0.1 - - [17/Apr/2023 17:17:01] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-17 17:17:01,855 - INFO - 127.0.0.1 - - [17/Apr/2023 17:17:01] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-17 17:17:01,858 - INFO - 127.0.0.1 - - [17/Apr/2023 17:17:01] "[33mGET /static/static/assets/bg.jpg HTTP/1.1[0m" 404 -
+2023-04-17 17:17:01,859 - INFO - 127.0.0.1 - - [17/Apr/2023 17:17:01] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 09:16:23,814 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Scripts\\conda-script.py', reloading
+2023-04-18 09:16:26,068 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 09:16:32,218 - DEBUG - Creating app object
+2023-04-18 09:16:32,218 - DEBUG - Creating app object
+2023-04-18 09:16:32,246 - DEBUG - App object created
+2023-04-18 09:16:32,246 - DEBUG - App object created
+2023-04-18 09:16:32,266 - INFO - Running server in debug mode...
+2023-04-18 09:16:32,266 - INFO - Running server in debug mode...
+2023-04-18 09:16:32,367 - WARNING -  * Debugger is active!
+2023-04-18 09:16:32,425 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 09:16:38,654 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing.py', reloading
+2023-04-18 09:16:39,873 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 09:16:42,943 - DEBUG - Creating app object
+2023-04-18 09:16:42,943 - DEBUG - Creating app object
+2023-04-18 09:16:42,965 - DEBUG - App object created
+2023-04-18 09:16:42,965 - DEBUG - App object created
+2023-04-18 09:16:42,987 - INFO - Running server in debug mode...
+2023-04-18 09:16:42,987 - INFO - Running server in debug mode...
+2023-04-18 09:16:43,043 - WARNING -  * Debugger is active!
+2023-04-18 09:16:43,098 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 09:55:20,739 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2023-04-18 09:55:20,747 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 09:55:20,747 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+2023-04-18 09:55:20,751 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2023-04-18 09:55:20,755 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2023-04-18 09:55:20,775 - INFO - 127.0.0.1 - - [18/Apr/2023 09:55:20] "[35m[1mGET /sign_in HTTP/1.1[0m" 500 -
+2023-04-18 09:55:21,819 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 09:55:22,201 - DEBUG - Creating app object
+2023-04-18 09:55:22,201 - DEBUG - Creating app object
+2023-04-18 09:55:22,205 - DEBUG - App object created
+2023-04-18 09:55:22,205 - DEBUG - App object created
+2023-04-18 09:55:22,205 - INFO - Running server in debug mode...
+2023-04-18 09:55:22,205 - INFO - Running server in debug mode...
+2023-04-18 09:55:22,217 - WARNING -  * Debugger is active!
+2023-04-18 09:55:22,225 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 09:55:23,670 - INFO - 127.0.0.1 - - [18/Apr/2023 09:55:23] "GET /sign_in?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-04-18 09:55:23,674 - INFO - 127.0.0.1 - - [18/Apr/2023 09:55:23] "GET /sign_in?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-18 09:55:23,690 - INFO - 127.0.0.1 - - [18/Apr/2023 09:55:23] "GET /sign_in?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-18 09:55:23,826 - INFO - 127.0.0.1 - - [18/Apr/2023 09:55:23] "[36mGET /sign_in?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-18 10:07:45,974 - INFO - 127.0.0.1 - - [18/Apr/2023 10:07:45] "GET /static/assets/favicon.ico HTTP/1.1" 200 -
+2023-04-18 10:08:56,291 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:56] "GET / HTTP/1.1" 200 -
+2023-04-18 10:08:56,385 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:56] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-18 10:08:56,385 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:56] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:08:56,397 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:56] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:08:56,401 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:56] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:08:57,147 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:57] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:08:57,211 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:57] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:08:57,429 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:57] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-18 10:08:57,429 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:57] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-18 10:08:57,433 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:57] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:08:57,437 - INFO - 127.0.0.1 - - [18/Apr/2023 10:08:57] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:13:19,332 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "GET / HTTP/1.1" 200 -
+2023-04-18 10:13:19,392 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-18 10:13:19,392 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:13:19,396 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:13:19,396 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:13:19,491 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:13:19,491 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:13:19,559 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-18 10:13:19,559 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-18 10:13:19,559 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-18 10:13:19,559 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:13:19,686 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:19] "GET /static/assets/favicon.ico HTTP/1.1" 200 -
+2023-04-18 10:13:41,747 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "GET / HTTP/1.1" 200 -
+2023-04-18 10:13:41,787 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:13:41,791 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[36mGET /static/styles/layout.css HTTP/1.1[0m" 304 -
+2023-04-18 10:13:41,791 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:13:41,791 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:13:41,836 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:13:41,836 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:13:41,860 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:13:41,864 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:13:41,864 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:13:41,864 - INFO - 127.0.0.1 - - [18/Apr/2023 10:13:41] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:02,214 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "GET / HTTP/1.1" 200 -
+2023-04-18 10:14:02,254 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:14:02,254 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[36mGET /static/styles/layout.css HTTP/1.1[0m" 304 -
+2023-04-18 10:14:02,258 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:14:02,258 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:14:02,302 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:14:02,302 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:14:02,326 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:02,326 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:02,330 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:02,330 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:02] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:36,459 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "GET / HTTP/1.1" 200 -
+2023-04-18 10:14:36,507 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:14:36,511 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:14:36,515 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:14:36,515 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:14:36,563 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:14:36,563 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:14:36,588 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:36,592 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:36,592 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:36,592 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:36] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:55,260 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "GET / HTTP/1.1" 200 -
+2023-04-18 10:14:55,304 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:14:55,304 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:14:55,308 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:14:55,308 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:14:55,358 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:14:55,358 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:14:55,398 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:55,398 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:55,398 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:14:55,402 - INFO - 127.0.0.1 - - [18/Apr/2023 10:14:55] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:16:33,946 - INFO - 127.0.0.1 - - [18/Apr/2023 10:16:33] "[35m[1mGET /sign_in HTTP/1.1[0m" 500 -
+2023-04-18 10:16:33,996 - INFO - 127.0.0.1 - - [18/Apr/2023 10:16:33] "GET /sign_in?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-18 10:16:34,000 - INFO - 127.0.0.1 - - [18/Apr/2023 10:16:34] "GET /sign_in?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-04-18 10:16:34,020 - INFO - 127.0.0.1 - - [18/Apr/2023 10:16:34] "GET /sign_in?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-04-18 10:16:34,024 - INFO - 127.0.0.1 - - [18/Apr/2023 10:16:34] "[36mGET /sign_in?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-18 10:16:36,730 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Scripts\\conda-script.py', reloading
+2023-04-18 10:16:37,079 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py', reloading
+2023-04-18 10:16:38,654 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 10:16:39,054 - DEBUG - Creating app object
+2023-04-18 10:16:39,054 - DEBUG - Creating app object
+2023-04-18 10:16:39,062 - DEBUG - App object created
+2023-04-18 10:16:39,062 - DEBUG - App object created
+2023-04-18 10:16:39,066 - INFO - Running server in debug mode...
+2023-04-18 10:16:39,066 - INFO - Running server in debug mode...
+2023-04-18 10:16:39,078 - WARNING -  * Debugger is active!
+2023-04-18 10:16:39,082 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 10:16:40,289 - INFO -  * Detected change in 'C:\\Users\\utilisateur\\anaconda3\\Lib\\site-packages\\setuptools\\_vendor\\pyparsing.py', reloading
+2023-04-18 10:16:41,536 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 10:16:42,770 - DEBUG - Creating app object
+2023-04-18 10:16:42,770 - DEBUG - Creating app object
+2023-04-18 10:16:42,774 - DEBUG - App object created
+2023-04-18 10:16:42,774 - DEBUG - App object created
+2023-04-18 10:16:42,778 - INFO - Running server in debug mode...
+2023-04-18 10:16:42,778 - INFO - Running server in debug mode...
+2023-04-18 10:16:42,790 - WARNING -  * Debugger is active!
+2023-04-18 10:16:42,794 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 10:17:38,433 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "GET / HTTP/1.1" 200 -
+2023-04-18 10:17:38,481 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:17:38,950 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:17:38,950 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-18 10:17:38,950 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:17:38,966 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:17:38,966 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:17:38,988 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:17:38,988 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-18 10:17:38,992 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-18 10:17:38,992 - INFO - 127.0.0.1 - - [18/Apr/2023 10:17:38] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-18 10:18:08,655 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "GET / HTTP/1.1" 200 -
+2023-04-18 10:18:08,699 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:18:08,703 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "GET /static/styles/index.css HTTP/1.1" 200 -
+2023-04-18 10:18:08,703 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:18:08,703 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:18:08,747 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:18:08,747 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:18:08,767 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:18:08,771 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "GET /static/assets/logo_1.png HTTP/1.1" 200 -
+2023-04-18 10:18:08,771 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "GET /static/assets/facebook.png HTTP/1.1" 200 -
+2023-04-18 10:18:08,775 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:08] "GET /static/assets/instagram.png HTTP/1.1" 200 -
+2023-04-18 10:18:27,614 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "GET / HTTP/1.1" 200 -
+2023-04-18 10:18:27,661 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:18:27,665 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:18:27,665 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:18:27,669 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:18:27,744 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:18:27,744 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:18:27,768 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:18:27,768 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:18:27,772 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:18:27,772 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:27] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:18:58,738 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "GET / HTTP/1.1" 200 -
+2023-04-18 10:18:58,774 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:18:58,774 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:18:58,778 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:18:58,778 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:18:58,828 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:18:58,828 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:18:58,848 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:18:58,852 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:18:58,856 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:18:58,856 - INFO - 127.0.0.1 - - [18/Apr/2023 10:18:58] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:20:35,508 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "GET / HTTP/1.1" 200 -
+2023-04-18 10:20:35,588 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:20:35,588 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:20:35,592 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:20:35,600 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:20:35,757 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:20:35,757 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:20:35,817 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:20:35,817 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:20:35,821 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:20:35,821 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:35] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:20:52,095 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "GET / HTTP/1.1" 200 -
+2023-04-18 10:20:52,159 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:20:52,163 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:20:52,171 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:20:52,171 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:20:52,287 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:20:52,291 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:20:52,327 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:20:52,331 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:20:52,335 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:20:52,335 - INFO - 127.0.0.1 - - [18/Apr/2023 10:20:52] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:03,301 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "GET / HTTP/1.1" 200 -
+2023-04-18 10:21:03,345 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:21:03,349 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:21:03,353 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:21:03,353 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:21:03,454 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:21:03,454 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:21:03,530 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:03,530 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:03,534 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:03,534 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:03] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:22,523 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "GET / HTTP/1.1" 200 -
+2023-04-18 10:21:22,571 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:21:22,575 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:21:22,575 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:21:22,575 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:21:22,679 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:21:22,683 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:21:22,779 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:22,779 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:22,783 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:22,783 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:22] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:30,225 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "GET / HTTP/1.1" 200 -
+2023-04-18 10:21:30,281 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:21:30,285 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:21:30,285 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:21:30,285 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:21:30,404 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:21:30,404 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:21:30,448 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:30,452 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:30,452 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:30,456 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:30] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:52,463 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "GET / HTTP/1.1" 200 -
+2023-04-18 10:21:52,507 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[36mGET /static/styles/index.css HTTP/1.1[0m" 304 -
+2023-04-18 10:21:52,511 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:21:52,511 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "GET /static/styles/layout.css HTTP/1.1" 200 -
+2023-04-18 10:21:52,511 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2023-04-18 10:21:52,567 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:21:52,567 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[36mGET /static/assets/index_bg.jpg HTTP/1.1[0m" 304 -
+2023-04-18 10:21:52,591 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:52,591 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:52,595 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:21:52,595 - INFO - 127.0.0.1 - - [18/Apr/2023 10:21:52] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:22:29,812 - INFO - 127.0.0.1 - - [18/Apr/2023 10:22:29] "[35m[1mGET /sign_in HTTP/1.1[0m" 500 -
+2023-04-18 10:22:29,872 - INFO - 127.0.0.1 - - [18/Apr/2023 10:22:29] "GET /sign_in?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-04-18 10:22:29,872 - INFO - 127.0.0.1 - - [18/Apr/2023 10:22:29] "GET /sign_in?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-04-18 10:22:29,900 - INFO - 127.0.0.1 - - [18/Apr/2023 10:22:29] "[36mGET /sign_in?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-18 10:23:36,939 - INFO - 127.0.0.1 - - [18/Apr/2023 10:23:36] "GET /sign_in HTTP/1.1" 200 -
+2023-04-18 10:23:36,975 - INFO - 127.0.0.1 - - [18/Apr/2023 10:23:36] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2023-04-18 10:23:36,987 - INFO - 127.0.0.1 - - [18/Apr/2023 10:23:36] "GET /static/styles/sign_in.css HTTP/1.1" 200 -
+2023-04-18 10:23:37,009 - INFO - 127.0.0.1 - - [18/Apr/2023 10:23:37] "[36mGET /static/assets/logo_1.png HTTP/1.1[0m" 304 -
+2023-04-18 10:23:37,013 - INFO - 127.0.0.1 - - [18/Apr/2023 10:23:37] "[36mGET /static/assets/facebook.png HTTP/1.1[0m" 304 -
+2023-04-18 10:23:37,013 - INFO - 127.0.0.1 - - [18/Apr/2023 10:23:37] "[36mGET /static/assets/instagram.png HTTP/1.1[0m" 304 -
+2023-04-18 10:23:37,017 - INFO - 127.0.0.1 - - [18/Apr/2023 10:23:37] "[36mGET /static/assets/linkedin.png HTTP/1.1[0m" 304 -
+2023-04-18 10:23:37,017 - INFO - 127.0.0.1 - - [18/Apr/2023 10:23:37] "[33mGET /static/static/assets/bg.jpg HTTP/1.1[0m" 404 -
+2023-04-18 10:39:10,288 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:39:10,288 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:39:10,292 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:39:10,292 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:39:10,292 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:39:10,296 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:39:11,339 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 10:39:11,728 - DEBUG - Creating app object
+2023-04-18 10:39:11,728 - DEBUG - Creating app object
+2023-04-18 10:39:11,732 - DEBUG - App object created
+2023-04-18 10:39:11,732 - DEBUG - App object created
+2023-04-18 10:39:11,732 - INFO - Running server in debug mode...
+2023-04-18 10:39:11,732 - INFO - Running server in debug mode...
+2023-04-18 10:39:11,744 - WARNING -  * Debugger is active!
+2023-04-18 10:39:11,752 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 10:40:30,540 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:40:30,540 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:40:30,540 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:40:30,548 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:40:30,548 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:40:30,548 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:40:31,583 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 10:40:31,966 - DEBUG - Creating app object
+2023-04-18 10:40:31,966 - DEBUG - Creating app object
+2023-04-18 10:40:31,966 - DEBUG - App object created
+2023-04-18 10:40:31,966 - DEBUG - App object created
+2023-04-18 10:40:31,974 - INFO - Running server in debug mode...
+2023-04-18 10:40:31,974 - INFO - Running server in debug mode...
+2023-04-18 10:40:31,986 - WARNING -  * Debugger is active!
+2023-04-18 10:40:31,990 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 10:43:00,984 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\interfaces.py', reloading
+2023-04-18 10:43:02,118 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 10:43:04,536 - DEBUG - Creating app object
+2023-04-18 10:43:04,536 - DEBUG - Creating app object
+2023-04-18 10:43:04,568 - DEBUG - App object created
+2023-04-18 10:43:04,568 - DEBUG - App object created
+2023-04-18 10:43:04,588 - INFO - Running server in debug mode...
+2023-04-18 10:43:04,588 - INFO - Running server in debug mode...
+2023-04-18 10:43:04,652 - WARNING -  * Debugger is active!
+2023-04-18 10:43:04,688 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 10:43:06,936 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:43:08,087 - INFO -  * Restarting with watchdog (windowsapi)
+2023-04-18 10:43:09,699 - DEBUG - Creating app object
+2023-04-18 10:43:09,699 - DEBUG - Creating app object
+2023-04-18 10:43:09,719 - DEBUG - App object created
+2023-04-18 10:43:09,719 - DEBUG - App object created
+2023-04-18 10:43:09,731 - INFO - Running server in debug mode...
+2023-04-18 10:43:09,731 - INFO - Running server in debug mode...
+2023-04-18 10:43:09,775 - WARNING -  * Debugger is active!
+2023-04-18 10:43:09,807 - INFO -  * Debugger PIN: 114-056-198
+2023-04-18 10:46:47,025 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:46:47,025 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:46:47,029 - INFO -  * Detected change in 'c:\\Users\\utilisateur\\Documents\\coral-AI_TCP\\server.py', reloading
+2023-04-18 10:46:48,100 - INFO -  * Restarting with watchdog (windowsapi)

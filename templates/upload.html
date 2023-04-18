@@ -9,12 +9,18 @@
     
     <main>
 
-        <div id="drop-zone">
-            <img id="upload_img" src="{{ url_for('static',filename='assets/upload.png') }}">
-            <p>Drag and drop your image here</p>
+        {% extends "layout.html" %}
+        {% block content %}
+        <div id="space" style='background-image: url(&quot;{{ url_for("static",filename="assets/bg_upload.jpg") }}&quot;);'>
+            <div id="drop-zone">
+                <img id="upload_img" src="{{ url_for('static',filename='assets/upload.png') }}">
+                <p>Drag and drop your image here</p>
+                <button id="add-img-btn">Add Image</button>
+            </div>
+            
+            <input type="file" id="file-input" style="display: none;">
         </div>
-          
-
+        {% endblock %}
     </main>
 
     <script src="{{ url_for('static',filename='js/upload.js') }}"></script>
