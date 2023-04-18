@@ -42,6 +42,9 @@ class Server(interfaces.Server_interface):
         self.__logger.debug("App object created")
 
         self.app.add_url_rule("/", "index", self.index)
+        self.__app.add_url_rule('/sign_in', 'sign_in', self.sign_in)
+        self.__app.add_url_rule('/sign_up', 'sign_up', self.sign_up)
+
         return self.__app
 
     def run_test_server(self):
@@ -100,3 +103,9 @@ class Server(interfaces.Server_interface):
         except TemplateNotFound:
 
             abort(404)
+
+    def sign_in(self):
+        return render_template('sign_in.html')
+    
+    def sign_up(self):
+        return render_template('sign_up.html')
