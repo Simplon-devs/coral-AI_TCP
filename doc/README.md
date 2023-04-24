@@ -46,8 +46,8 @@ C’est la table qui permet les relations principales avec les autres. Elle cont
 -**Bar** : elles correspondent à la face et aux barres de chaque récifs. Vous avez 6 faces par récifs. Numérotées de H00 (là ou il y a l'étiquette) à H10 en partant par la gauche. (cf *schéma 1*). Voici les faces dans l'ordre (aidez vous d'une image de récif et du *schéma 1* afin de mieux comprendre.)
 
 
-![schèma 1](TCP_BDD/photo/readme/schema.jpg)*schéma 1*
-![image de récif](TCP_BDD/photo/readme/SH316H00220828.jpg)*image de récif*
+| ![schema.jpg](readme_db_pic/schema.jpg) |
+| ![SH316H00220828.jpg](readme_db_pic/SH316H00220828.jpg) |
 
 
 -**Position** : position du fragment sur la bar. Elles se situent entre 0 (extrémité gauche) et 1 (extrémité droite).
@@ -171,9 +171,6 @@ Ce sont les annotations, consolidées pour l'ensemble du cadre. Elle est spécif
 
 
 ## Status
-
-
-(!) Cette table comporte beaucoup de doublons. Le code doit être corrigé dans le fichier frameanalysis/dataanalysis.py , mot clé status
 
 
 Statut de chaque fragment à chaque date de surveillance (à partir de la première détection.)
