@@ -2,7 +2,8 @@ import logging
 import logging.handlers
 from flask import Flask, render_template, abort, request
 from jinja2 import TemplateNotFound
-
+import mysql.connector
+import hashlib
 import interfaces
 
 
@@ -46,6 +47,9 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
         self.app.add_url_rule("/upload", "upload", self.upload)
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
+        self.conn = mysql.connector.connect(
+        database="db/database.sql"
+        )
         return self.__app
 
     def run_test_server(self):
@@ -111,6 +115,16 @@ class Server(interfaces.Server_interface):
 
     def sign_up(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+        """ Définir une fonction pour hasher le mot de passe"""
+        def hash_password(password):
+            return hashlib.sha256(password.encode('utf-8')).hexdigest()
+        def register_user(username, password, email):
+            cursor = conn.cursor()
+            query = "INSERT INTO utilisateurs (username, password, email) VALUES (%s, %s, %s)"
+            values = (username, hash_password(password), email)
+            cursor.execute(query, values)
+            self.conn.commit()
+            cursor.close()
         try:
             return render_template("sign_up.html")
         except TemplateNotFound:
