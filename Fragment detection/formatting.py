@@ -41,16 +41,13 @@ def add_new_annots(pictures_path, annotation_path, sloth_json_path, new_pictures
 
         pic = data[i_it]
 
-        #filename = pic["filename"]
+
         filename = pic["Labeled Data"]
-        
-        #head, tail = os.path.split(filename)
-        
-        #print("head :",head, "", "tail :", tail)
+
         tail = extract_filename(filename)
         
         basename, extension = os.path.splitext(tail)
-        #print("basename : ", basename, "extension :", extension)
+
         
         im = cv2.imread(pictures_path + tail)
         print(pictures_path + tail)
