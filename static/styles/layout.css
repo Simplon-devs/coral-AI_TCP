@@ -1,0 +1,57 @@
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.search-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+  
+.search-container button[type="submit"] {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #242853;
+    border-color: white;
+    border-radius: 0.5em;
+    border-style: solid;
+}
+  
+  .search-container button[type="submit"]:hover {
+    background-color:white;
+    color: #242853;
+    border-color: white;
+  }
+  
+.navbar{
+    background-color: #242853;
+}
+
+.logo_1{
+    max-width: 10em;
+    height: auto;
+}
+
+.btn-custom {
+    color: white;
+    background-color: #242853;
+    border-color: white;
+    border-radius: 1em;
+    border-style: solid;
+  }
+
+.btn-custom:hover{
+    background-color:white;
+    color: #242853;
+    border-color: white;
+}
+
+.social_icon{
+    max-width: 1.5em;
+    height: auto;
+}
