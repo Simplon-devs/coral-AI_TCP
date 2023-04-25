@@ -1,7 +1,6 @@
-import mysql.connector
 import pytest
 import MySQLdb
-from Statistics.sql import OpenMydb
+from bdd import OpenMydb
 
 def test_OpenMydb():
     db = OpenMydb(database="nom_de_votre_bdd")
