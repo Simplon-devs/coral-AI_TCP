@@ -5,7 +5,7 @@ from jinja2 import TemplateNotFound
 import mysql.connector
 import hashlib
 import interfaces
-
+import sqlite3
 
 class Server(interfaces.Server_interface):
 
@@ -41,15 +41,20 @@ class Server(interfaces.Server_interface):
         self.__logger.debug("Creating app object")
         self.__app = Flask("The Coral Planters", template_folder='./templates', static_folder='./static')
         self.__logger.debug("App object created")
-
+        self.app.add_url_rule("/sign_in", "sign in", self.sign_in, methods=["GET", "POST"])
+        self.app.add_url_rule("/sign_up", "sign up", self.sign_up, methods=["GET", "POST"])
         self.app.add_url_rule("/", "index", self.index)
         self.app.add_url_rule("/sign_in", "sign in", self.sign_in)
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
+        self.app.add_url_rule("/sign_up_passed", "sign up passed", self.sign_up_passed)
         self.app.add_url_rule("/upload", "upload", self.upload)
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         self.conn = mysql.connector.connect(
-        database="db/database.sql"
+        host="localhost",
+        user="User",
+        database="db_coral_planters"
         )
+        self.cursor = self.conn.cursor()
         return self.__app
 
     def run_test_server(self):
@@ -114,21 +119,31 @@ class Server(interfaces.Server_interface):
             abort(404)
 
     def sign_up(self):
-        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
-        """ Définir une fonction pour hasher le mot de passe"""
-        def hash_password(password):
-            return hashlib.sha256(password.encode('utf-8')).hexdigest()
-        def register_user(username, password, email):
-            cursor = conn.cursor()
-            query = "INSERT INTO utilisateurs (username, password, email) VALUES (%s, %s, %s)"
-            values = (username, hash_password(password), email)
-            cursor.execute(query, values)
+        """Handle both POST and GET requests for creating a new account"""
+        print("hello")
+        if request.method == "POST":
+            print("post marche")
+            # Get the user's data from the form and hash their password
+            username = request.form['username']
+            email = request.form['email']
+            password = request.form['password']
+            hashed_password = hashlib.sha256(password.encode()).hexdigest()
+
+            # Insert the user's data into the SQLite database
+            self.cursor.execute("INSERT INTO utilisateurs (username, email, password) VALUES (%s, %s, %s)", (username, email, hashed_password))
             self.conn.commit()
-            cursor.close()
-        try:
-            return render_template("sign_up.html")
-        except TemplateNotFound:
-            abort(404)
+            self.conn.close()
+
+            return render_template("sign_up_passed.html")
+
+        elif request.method == "GET":
+            print("get marche")
+            # If the request method is GET, render the sign_up.html template
+            try:
+                return render_template("sign_up.html")
+            except TemplateNotFound:
+                abort(404)
+
 
     def upload(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
@@ -155,3 +170,9 @@ class Server(interfaces.Server_interface):
         except TemplateNotFound:
             abort(404)
 
+    def sign_up_passed(self):
+        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+        try:
+            return render_template("signed_up_passed.html")
+        except TemplateNotFound:
+            abort(404)
