@@ -1,19 +1,16 @@
 import mysql.connector
 import pytest
+import MySQLdb
+from Statistics.sql import OpenMydb
 
-@pytest.fixture
-def connection(database='Reefscapers2020_v2'):
-    conn = mysql.connector.connect(
-        host="localhost",
-        database=database,
-        user="root",
-        password="root",
-    )
-    yield conn
-    conn.close()
+def test_OpenMydb():
+    db = OpenMydb(database="nom_de_votre_bdd")
+    assert isinstance(db, MySQLdb.connections.Connection)
 
-def test_select(connection):
-    cursor = connection.cursor()
+def test_select():
+    db = OpenMydb()
+    cursor = db.cursor()
     cursor.execute("SELECT COUNT(*) FROM annotations WHERE AnnotationId = 404")
     result = cursor.fetchone()
     assert result[0] == 1
+    db.close()
