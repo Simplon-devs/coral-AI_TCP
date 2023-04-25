@@ -1,6 +1,6 @@
-import MySQLdb
 import pymysql
 pymysql.install_as_MySQLdb()
+import MySQLdb
 
 def OpenMydb(database="Reefscapers2020_v2"):
 
