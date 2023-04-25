@@ -11,3 +11,9 @@ def connection(database='Reefscapers2020_v2'):
     )
     yield conn
     conn.close()
+
+def test_select(connection):
+    cursor = connection.cursor()
+    cursor.execute("SELECT COUNT(*) FROM annotations WHERE AnnotationId = 404")
+    result = cursor.fetchone()
+    assert result[0] == 1
