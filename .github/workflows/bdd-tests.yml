@@ -38,10 +38,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
         
-        # Run database test
-        env:
-          DB_HOST: your-db-host
-          DB_USER: your-db-user
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-          run: |
-            pytest test_db.py
+      - name: Run database tests
+        run: |
+          pytest test_db.py
