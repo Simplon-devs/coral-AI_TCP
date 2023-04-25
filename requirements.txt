@@ -1,0 +1,4 @@
+mysql-connector==2.2.9
+mysqlclient==2.1.1
+pytest==7.3.1
+
