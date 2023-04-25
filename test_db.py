@@ -3,7 +3,7 @@ import MySQLdb
 from bdd import OpenMydb
 
 def test_OpenMydb():
-    db = OpenMydb(database="nom_de_votre_bdd")
+    db = OpenMydb(database="Reefscapers2020_v2")
     assert isinstance(db, MySQLdb.connections.Connection)
 
 def test_select():
