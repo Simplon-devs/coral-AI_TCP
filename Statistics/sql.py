@@ -179,6 +179,9 @@ def get_bleached_data():
     desc = cur.description
     data.columns = [col[0] for col in desc]
     data['ObsDate'] = data['Date'].apply(lambda x:datetime.strptime('20' + str(x).zfill(6), '%Y%m%d')).dt.date
+    data['ObsDate'] = pd.to_datetime(data['ObsDate'])
+    data['Transplanted'] = pd.to_datetime(data['Transplanted'])
+    print(data[['ObsDate', 'Transplanted']].dtypes)
     data['BleachDelay'] = (data['ObsDate'] - data['Transplanted']).dt.days
 
     return(data)
