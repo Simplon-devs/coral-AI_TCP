@@ -8,15 +8,15 @@ from bdd import Create_db, Create_table, OpenMydb
 def test_create_db():
     
     # A enlever lorsque la base de donnée sera publié
-    db = Create_db('Reefscapers2020_v2')
+    db = Create_db('Test_Reefscapers2020_v2')
     
-    op = OpenMydb('Reefscapers2020_v2')
+    op = OpenMydb('Test_Reefscapers2020_v2')
     assert op is not None
     db.close()
 
     
 def test_create_table():
-    db_name = 'Reefscapers2020_v2'
+    db_name = 'Test_Reefscapers2020_v2'
     Create_db (db_name)
     db = Create_table(db_name)
     cursor = db.cursor()
