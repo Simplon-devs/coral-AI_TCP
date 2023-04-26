@@ -59,7 +59,8 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         self.conn = mysql.connector.connect(
         host="localhost",
-        user="User",
+        user="root",
+        password="root",
         database="db_coral_planters"
         )
         self.cursor = self.conn.cursor()
@@ -129,14 +130,15 @@ class Server(interfaces.Server_interface):
             hashed_password = hashlib.sha256(password.encode()).hexdigest()
             print("username : ", username, " password : ", hashed_password)
             try:
-                sql_query = "SELECT id, username, role, email, fragment_id FROM utilisateurs WHERE username = %s AND password = %s"
+                sql_query = "SELECT id, username, role, email FROM utilisateurs WHERE username = %s AND password = %s"
                 params = (username, hashed_password)
                 self.cursor.execute(sql_query, params)
                 res = self.cursor.fetchall()
-                self.connected_user = User(res[0][0], res[0][1], res[0][2], res[0][3], res[0][4])
+                #print(res)
+                self.connected_user = User(res[0][0], res[0][1], res[0][2], res[0][3])
                 session['logged_in'] = True
 
-                print(self.connected_user)
+                #print(self.connected_user)
                 self.conn.close()
 
                 return redirect('/')
