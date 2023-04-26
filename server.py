@@ -6,9 +6,9 @@ import sqlite3
 from flask import Flask, render_template, abort, current_app, g
 from flask_wtf import FlaskForm
 from wtforms import MultipleFileField, SubmitField
-from wtforms.validators import DataRequired, request
+from wtforms.validators import DataRequired
 from jinja2 import TemplateNotFound
-from db import init_app, get_db, close_db, init_db, init_db_command
+from db import create_connection, get_db, close_db, init_db, init_db_command, selectAnnotations
 
 
 class UploadForm(FlaskForm):
@@ -59,7 +59,8 @@ class Server(interfaces.Server_interface):
 
         self.app.config['SECRET_KEY'] = 'secret_key'
         # Initialize the database
-        init_app(self.app)
+        conn = create_connection("db_coral_planters.sql")
+        selectAnnotations(conn)
 
         return self.__app
 

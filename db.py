@@ -1,8 +1,21 @@
 import sqlite3
-
+from sqlite3 import Error
 import click
-from flask import current_app, g
+from flask import current_app, g, jsonify
 
+def create_connection(db_file):
+    """ create a database connection to the SQLite database
+        specified by db_file
+    :param db_file: database file
+    :return: Connection object or None
+    """
+    # YOUR CODE
+    try:
+        conn = sqlite3.connect(db_file)
+        print(sqlite3.version)
+        return conn
+    except Error as e:
+        print(e)
 
 def init_app(app):
     app.teardown_appcontext(close_db)
@@ -33,6 +46,25 @@ def init_db():
 
     with current_app.open_resource('db_coral_planters.sql') as f:
         db.executescript(f.read().decode('utf8'))
+
+def selectAnnotations(conn):
+    cur = conn.cursor()
+    id = 405
+    cur.execute(f'''
+    SELECT * FROM annotations
+    WHERE AnnotationId = {id}
+    
+                 ''')
+    rows = cur.fetchall()
+
+    objects_list = []
+    for row in rows:
+        d = []
+        d['Type'] = row[0]
+        d['Score'] = row[1]
+        objects_list.append(d)
+        print(d, objects_list)
+    return jsonify(objects_list[0])
 
 
 @click.command('init-db')
