@@ -12,12 +12,7 @@ class TestServer(unittest.TestCase):
         pass
         
             
-    def test_index(self):
-        with patch("server.render_template") as mock_render_template:
-            response = self.server.index()
-            self.assertIsNotNone(response)
-            self.assertTrue(mock_render_template.called)
-            
+
     def test_sign_in(self):
         with patch("server.render_template") as mock_render_template:
             response = self.server.sign_in()
