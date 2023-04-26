@@ -1,6 +1,7 @@
 import pytest
 import pymysql
 pymysql.install_as_MySQLdb()
+import MySQLdb as MS
 
 from bdd import Create_db, Create_table
 
