@@ -1,10 +1,19 @@
 import logging
 import logging.handlers
-from flask import Flask, render_template, abort, request
-from jinja2 import TemplateNotFound
-
+import click
 import interfaces
+import sqlite3
+from flask import Flask, render_template, abort, current_app, g
+from flask_wtf import FlaskForm
+from wtforms import MultipleFileField, SubmitField
+from wtforms.validators import DataRequired, request
+from jinja2 import TemplateNotFound
+from db import init_app, get_db, close_db, init_db, init_db_command
 
+
+class UploadForm(FlaskForm):
+    files = MultipleFileField('Files', validators=[DataRequired()])
+    submit = SubmitField('Upload')
 
 class Server(interfaces.Server_interface):
 
@@ -36,7 +45,7 @@ class Server(interfaces.Server_interface):
 
     def __create_app(self):
         """Create and returns a new Flask app"""
-
+        
         self.__logger.debug("Creating app object")
         self.__app = Flask("The Coral Planters", template_folder='./templates', static_folder='./static')
         self.__logger.debug("App object created")
@@ -44,8 +53,14 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/", "index", self.index)
         self.app.add_url_rule("/sign_in", "sign in", self.sign_in)
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
-        self.app.add_url_rule("/upload", "upload", self.upload)
+        self.app.add_url_rule("/upload", "upload", self.upload, methods=["POST", "GET"])
+        self.app.add_url_rule("/ia", "ia", self.ia)
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
+
+        self.app.config['SECRET_KEY'] = 'secret_key'
+        # Initialize the database
+        init_app(self.app)
+
         return self.__app
 
     def run_test_server(self):
@@ -118,8 +133,23 @@ class Server(interfaces.Server_interface):
 
     def upload(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+        form = UploadForm()
+
+        if form.validate_on_submit():
+            for file in form.files.data:
+                file.save("static/stock_test")
+            return 'Files uploaded successfully'
+
         try:
-            return render_template("upload.html")
+            return render_template("upload.html", form=form)
+        except TemplateNotFound:
+            abort(404)
+
+
+    def ia(self):
+        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+        try:
+            return render_template("ia.html")
         except TemplateNotFound:
             abort(404)
 
