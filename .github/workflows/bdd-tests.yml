@@ -39,4 +39,4 @@ jobs:
         run: sudo systemctl is-active mysql.service
 
       - name: Run database tests
-        run: pytest --cov-report=xml --cov=bdd --mysql-host=localhost --mysql-user=root --mysql-password=root --mysql-db=reeftest
+        run: pytest test_db.py 
