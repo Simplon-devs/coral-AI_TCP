@@ -42,7 +42,6 @@ def Create_table(db_name):
     
     return db
 
-
 def insert_buyers():
 
     #insert buyers id, take from table utilisateurs every id wich have 'user' role
