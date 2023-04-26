@@ -7,6 +7,7 @@ import interfaces
 import mysql as mysql
 import mysql.connector
 from entity.User import User
+import sqlite3
 
 
 class Server(interfaces.Server_interface):
@@ -47,18 +48,19 @@ class Server(interfaces.Server_interface):
         self.__app.config['SESSION_TYPE'] = 'filesystem'
 
         self.__logger.debug("App object created")
-
+        self.app.add_url_rule("/sign_in", "sign in", self.sign_in, methods=["GET", "POST"])
+        self.app.add_url_rule("/sign_up", "sign up", self.sign_up, methods=["GET", "POST"])
         self.app.add_url_rule("/", "index", self.index)
         self.app.add_url_rule("/sign_in", "sign in", self.sign_in, methods=["GET", "POST"])
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
         self.app.add_url_rule("/logout", "logout", self.logout)
+        self.app.add_url_rule("/sign_up_passed", "sign up passed", self.sign_up_passed)
         self.app.add_url_rule("/upload", "upload", self.upload)
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         self.conn = mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="root",
-        database="reefscapers2020_v3"
+        user="User",
+        database="db_coral_planters"
         )
         self.cursor = self.conn.cursor()
         return self.__app
@@ -150,11 +152,31 @@ class Server(interfaces.Server_interface):
 
 
     def sign_up(self):
-        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
-        try:
-            return render_template("sign_up.html")
-        except TemplateNotFound:
-            abort(404)
+        """Handle both POST and GET requests for creating a new account"""
+        print("hello")
+        if request.method == "POST":
+            print("post marche")
+            # Get the user's data from the form and hash their password
+            username = request.form['username']
+            email = request.form['email']
+            password = request.form['password']
+            hashed_password = hashlib.sha256(password.encode()).hexdigest()
+
+            # Insert the user's data into the SQLite database
+            self.cursor.execute("INSERT INTO utilisateurs (username, email, password) VALUES (%s, %s, %s)", (username, email, hashed_password))
+            self.conn.commit()
+            self.conn.close()
+
+            return render_template("sign_up_passed.html")
+
+        elif request.method == "GET":
+            print("get marche")
+            # If the request method is GET, render the sign_up.html template
+            try:
+                return render_template("sign_up.html")
+            except TemplateNotFound:
+                abort(404)
+
 
     def upload(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
@@ -180,9 +202,15 @@ class Server(interfaces.Server_interface):
             return render_template("coral_info.html")
         except TemplateNotFound:
             abort(404)
-    
+            
     def logout(self):
         self.connected_user = None
         session['logged_in'] = None
         return redirect('/')
-    
+        
+    def sign_up_passed(self):
+        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+        try:
+            return render_template("signed_up_passed.html")
+        except TemplateNotFound:
+            abort(404)
