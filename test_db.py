@@ -1,15 +1,23 @@
 import pytest
-import MySQLdb
-from bdd import OpenMydb
+import pymysql
+pymysql.install_as_MySQLdb()
 
-def test_OpenMydb():
-    db = OpenMydb()
-    assert isinstance(db, MySQLdb.connections.Connection)
+from bdd import Create_db, Create_table
 
-def test_select():
-    db = OpenMydb()
-    cursor = db.cursor()
-    cursor.execute("SELECT COUNT(*) FROM annotations WHERE AnnotationId = 404")
-    result = cursor.fetchone()
-    assert result[0] == 1
+def test_create_db():
+    db = Create_db('reeftest')
+    assert db is not None
     db.close()
+
+    
+def test_create_table():
+    db_name = 'reeftest'
+    Create_db (db_name)
+    db = Create_table(db_name)
+    cursor = db.cursor()
+    cursor.execute('SELECT * FROM foo')
+    result = cursor.fetchone()
+    assert result[0] == '4'
+    db.close()
+
+    
