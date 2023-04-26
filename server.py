@@ -1,12 +1,15 @@
 import logging
 import logging.handlers
-from flask import Flask, render_template, abort
+import click
+import interfaces
+import sqlite3
+from flask import Flask, render_template, abort, current_app, g
 from flask_wtf import FlaskForm
 from wtforms import MultipleFileField, SubmitField
 from wtforms.validators import DataRequired
 from jinja2 import TemplateNotFound
+from db import init_app, get_db, close_db, init_db, init_db_command
 
-import interfaces
 
 class UploadForm(FlaskForm):
     files = MultipleFileField('Files', validators=[DataRequired()])
@@ -54,6 +57,10 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/ia", "ia", self.ia)
         
         self.app.config['SECRET_KEY'] = 'secret_key'
+
+        # Initialize the database
+        init_app(self.app)
+
         return self.__app
 
     def run_test_server(self):
