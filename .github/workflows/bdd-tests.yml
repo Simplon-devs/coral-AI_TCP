@@ -44,4 +44,4 @@ jobs:
           MYSQL_USER: root
           MYSQL_PASSWORD: root
           MYSQL_DATABASE: reeftest
-        run: pytest tests/test_db.py --mysql-host=localhost --mysql-user=root --mysql-password=root --mysql-db=reeftest
+        run: pytest test_db.py --mysql-host=$MYSQL_HOST --mysql-user=$MYSQL_USER --mysql-password=$MYSQL_PASSWORD --mysql-db=$MYSQL_DATABASE
