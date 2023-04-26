@@ -39,9 +39,4 @@ jobs:
         run: sudo systemctl is-active mysql.service
 
       - name: Run database tests
-        run: pytest --cov-report=xml --cov=bdd --mysql-host=$MYSQL_HOST --mysql-user=$MYSQL_USER --mysql-password=$MYSQL_PASSWORD --mysql-db=$MYSQL_DB
-        env:
-          MYSQL_HOST: localhost
-          MYSQL_USER: root
-          MYSQL_PASSWORD: root
-          MYSQL_DB: reeftest
+        run: pytest --cov-report=xml --cov=bdd --mysql-host=localhost --mysql-user=root --mysql-password=root --mysql-db=reeftest
