@@ -9,7 +9,7 @@ from wtforms import MultipleFileField, SubmitField
 from wtforms.validators import DataRequired
 from jinja2 import TemplateNotFound
 import mysql.connector
-import hashlibfrom 
+import hashlib 
 from db import create_connection, get_db, close_db, init_db, init_db_command, selectAnnotations
 
 class UploadForm(FlaskForm):
@@ -63,10 +63,12 @@ class Server(interfaces.Server_interface):
 
         self.conn = mysql.connector.connect(
         host="localhost",
-        user="User",
+        user="root",
         database="db_coral_planters"
         )
+
         self.cursor = self.conn.cursor()
+
         return self.__app
 
     def run_test_server(self):
