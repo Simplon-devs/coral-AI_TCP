@@ -6,7 +6,7 @@ La plupart du contenu des tables est autoalimenté via l'ia qui détecte l'empla
 ## annotations : 
 
 
-Répertorie tous les fragments de corail détectés sur chaque image de surveillance. Ceci est spécifique à un **cadre**, une **date** et une **vue**.
+Répertorie tous les fragments de corail détectés sur chaque image de surveillance. Ceci est spécifique à un **cadre**, une **date** et une **vue**. **Cette table ne contient que des données ayant été labelisées à la main.**
 
 
 -**AnnotationID**: auto incrémentée, l’id de l’annotation
@@ -18,7 +18,7 @@ Répertorie tous les fragments de corail détectés sur chaque image de surveill
 -**MonitoringPicture** : l’image qui permet de faire la notation (pour un fragment donné).
 
 
--**Type** : le résultat de la classification (parmi : Acropora, Pocillopora, Bleached, dead et frame tag (la structure sans les coraux.)
+-**Type** : le résultat de la classification (parmi : Acropora, Pocillopora, Bleached, dead et frame tag (la structure sans les coraux.))
 
 
 -**Score** : mesure le score de précision de la reconnaissance des coraux (classification).Sont insérés dans la base les résultats ayant atteint la valeur de seuil (0.8) à ceux ayant atteint 0.99.
@@ -46,8 +46,8 @@ C’est la table qui permet les relations principales avec les autres. Elle cont
 -**Bar** : elles correspondent à la face et aux barres de chaque récifs. Vous avez 6 faces par récifs. Numérotées de H00 (là ou il y a l'étiquette) à H10 en partant par la gauche. (cf *schéma 1*). Voici les faces dans l'ordre (aidez vous d'une image de récif et du *schéma 1* afin de mieux comprendre.)
 
 
-| ![schema.jpg](readme_db_pic/schema.jpg) |
-| ![SH316H00220828.jpg](readme_db_pic/SH316H00220828.jpg) |
+![schema.jpg](readme_db_pic/schema.jpg)
+![SH316H00220828.jpg](readme_db_pic/SH316H00220828.jpg)
 
 
 -**Position** : position du fragment sur la bar. Elles se situent entre 0 (extrémité gauche) et 1 (extrémité droite).
@@ -153,10 +153,10 @@ Ce sont les annotations, consolidées pour l'ensemble du cadre. Elle est spécif
 -**Type** : résultat de la classification
 
 
--**AdjHeight** : adjustable height, hauteur, mesure effectuée à partir de la barre de cadre afin d’éviter des soucis de distorsion ou de perspective
+-**AdjHeight** : hauteur d'un fragment donné
 
 
--**AdjWidth** : adjustable width, largeur, même commentaire
+-**AdjWidth** : largeur d'un fragment donné
 
 
 -**Bar** : position sur le récif
@@ -192,6 +192,44 @@ Statut de chaque fragment à chaque date de surveillance (à partir de la premi�
 
 
 -**Updated** : date du jour où les infos sont entrées, auto incrémenté
+
+## utilisateurs :
+
+répertorie les personnes inscrites sur le site
+
+-**id** : auto incrémenté
+
+-**username** : nom de l'utilisateur
+
+-**password** : password de l'utilisateur, enregistré sous forme encryptée
+
+-**role** : role de l'utilisateur (parmi 'user' pour l'utilisateur lambda, 'admin' pour l'administrateur, et 'guest' )
+
+-**email** : email de l'utilisateur 
+
+-**register_date** : modifié à chaque maj de la ligne 
+
+## buyers : 
+
+répertorie les acheteurs de fragments 
+
+-**id** : issu de la table utilisateur, pour les acheteurs ont forcément un rôle 'user'
+
+-**type** : type de corail acheté 
+
+-**sous_type** : sous variété du corail acheté
+
+-**adoption_name** : nom donné par le user au corail 
+
+-**offered_by** : identité de la personne/organisme offrant le fragment
+
+-**your_dedication** : mot au format txt
+
+-**fragment_id** : id du fragment attribué 
+
+-**attribution_date** : date d'attribution du fragment 
+
+-**updated** : date de mise à jour de la ligne 
 
 
 
