@@ -3,14 +3,12 @@ name: Database test
 on:
   push:
     branches:
-      - Team-BDD
       - Team-DW
-      - Feat/pipelines
+      - main
   pull_request:
     branches:
-      - Team-BDD
       - Team-DW
-
+      - main
 jobs:
   test:
     runs-on: ubuntu-latest
