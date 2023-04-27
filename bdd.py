@@ -42,7 +42,6 @@ def Create_table(db_name):
     
     return db
 
-
 def insert_buyers():
 
     #insert buyers id, take from table utilisateurs every id wich have 'user' role
@@ -75,11 +74,9 @@ def attribute_Pocilopora():
     ORDER BY RAND() LIMIT 1
     ))
     WHERE `fragment_id` IS NULL;"""
-
-def user_coral_infos():
+    
+#def user_coral_infos():
     #get informations for client, it'll be a sentence with informations
     #ne pas oublier de les insérer au bon endroit dans le code (!) 
 
-def bbox_coral_reconstit():
-    #display picture with bonding box of coral 
-    #ne pas oublier de les insérer au bon endroit dans le code (!)
+#def bbox_coral_reconstit():

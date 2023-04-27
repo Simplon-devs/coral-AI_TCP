@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Create account</title>
+    <title>Inscription réussi</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,15 +19,15 @@
             <h2><a href="/sign_in">Se connecter</a></h2>
             </div>
         </div>  
-        <form method="POST" class="formulaire">
+        <form method="POST" class="formulaire" action="/sign_up">
             <div class="put">
-                <input type="text" name="username" placeholder="Username" class="transparent-input">
+                <input type="text" name="username" placeholder="username" class="transparent-input">
 
                 <input type="email" id="email" name="email" placeholder="email" class="transparent-input" required>
 
-                <input type="password" name="password" placeholder="Password" class="transparent-input">
+                <input type="password" name="password" placeholder="password" class="transparent-input">
             </div>
-            <div class="sub" type="submit">S'inscrire</div>
+            <input class="sub" type="submit">S'inscrire</div>
         </form>
     </div>
     {% endblock %}
