@@ -63,23 +63,23 @@ def attribute_Acropora():
     ))
     WHERE `fragment_id` IS NULL;"""
 
-def attribute_Pocilopora():
+# def attribute_Pocilopora():
 
-    #attribute afragmentID to a user wich has been transplanted since less than 8 months. The user by an acropora
-    #doit attribuer un fragment du bon type qui n'est pas mort, tombé ou blanchis
-    # ne pas oublier de les insérer au bon endroit dans le code (!)
-    request = """UPDATE `buyers`
-    SET `fragment_id` = IFNULL(`fragment_id`, (
-	SELECT `FragmentId` FROM `fragments`
-    WHERE `Transplanted` > DATE_SUB(NOW(), INTERVAL 8 MONTH) AND `type` = 'Pocilopora'
-    ORDER BY RAND() LIMIT 1
-    ))
-    WHERE `fragment_id` IS NULL;"""
+#     #attribute afragmentID to a user wich has been transplanted since less than 8 months. The user by an acropora
+#     #doit attribuer un fragment du bon type qui n'est pas mort, tombé ou blanchis
+#     # ne pas oublier de les insérer au bon endroit dans le code (!)
+#     request = """UPDATE `buyers`
+#     SET `fragment_id` = IFNULL(`fragment_id`, (
+# 	SELECT `FragmentId` FROM `fragments`
+#     WHERE `Transplanted` > DATE_SUB(NOW(), INTERVAL 8 MONTH) AND `type` = 'Pocilopora'
+#     ORDER BY RAND() LIMIT 1
+#     ))
+#     WHERE `fragment_id` IS NULL;"""
 
-def user_coral_infos():
-    #get informations for client, it'll be a sentence with informations
-    #ne pas oublier de les insérer au bon endroit dans le code (!) 
+# def user_coral_infos():
+#     #get informations for client, it'll be a sentence with informations
+#     #ne pas oublier de les insérer au bon endroit dans le code (!) 
 
-def bbox_coral_reconstit():
-    #display picture with bonding box of coral 
-    #ne pas oublier de les insérer au bon endroit dans le code (!)
+# def bbox_coral_reconstit():
+#     #display picture with bonding box of coral 
+#     #ne pas oublier de les insérer au bon endroit dans le code (!)
