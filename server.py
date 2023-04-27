@@ -182,7 +182,7 @@ class Server(interfaces.Server_interface):
     def upload(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
         try:
-            return render_template("upload.html", form=form)
+            return render_template("upload.html")
         except TemplateNotFound:
             abort(404)
 
