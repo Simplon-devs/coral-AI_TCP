@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - Team-DW
+      - Team-CI
       - main
   pull_request:
     branches:
       - Team-DW
+      - Team-CI
       - main
 jobs:
   test:
