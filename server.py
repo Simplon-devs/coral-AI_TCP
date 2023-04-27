@@ -10,10 +10,6 @@ from jinja2 import TemplateNotFound
 import hashlib 
 from bdd import create_connection
 
-class UploadForm(FlaskForm):
-    files = MultipleFileField('Files', validators=[DataRequired()])
-    submit = SubmitField('Upload')
-
 class Server(interfaces.Server_interface):
 
     def __init__(self,
