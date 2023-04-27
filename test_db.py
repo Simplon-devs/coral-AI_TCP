@@ -3,16 +3,20 @@ import pymysql
 pymysql.install_as_MySQLdb()
 import MySQLdb as MS
 
-from bdd import Create_db, Create_table
+from bdd import Create_db, Create_table, OpenMydb
 
 def test_create_db():
-    db = Create_db('reeftest')
-    assert db is not None
+    
+    # A enlever lorsque la base de donnée sera publié
+    db = Create_db('Test_Reefscapers2020_v2')
+    
+    op = OpenMydb('Test_Reefscapers2020_v2')
+    assert op is not None
     db.close()
 
     
 def test_create_table():
-    db_name = 'reeftest'
+    db_name = 'Test_Reefscapers2020_v2'
     Create_db (db_name)
     db = Create_table(db_name)
     cursor = db.cursor()
