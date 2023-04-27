@@ -181,13 +181,6 @@ class Server(interfaces.Server_interface):
 
     def upload(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
-        form = UploadForm()
-
-        if form.validate_on_submit():
-            for file in form.files.data:
-                file.save("static/stock_test")
-            return 'Files uploaded successfully'
-
         try:
             return render_template("upload.html", form=form)
         except TemplateNotFound:
