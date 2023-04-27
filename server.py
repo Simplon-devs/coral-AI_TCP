@@ -2,15 +2,13 @@ import logging
 import logging.handlers
 import click
 import interfaces
-import sqlite3
-from flask import Flask, render_template, abort, current_app, g, request
+from flask import Flask, render_template, abort, current_app, g, request, redirect
 from flask_wtf import FlaskForm
 from wtforms import MultipleFileField, SubmitField
 from wtforms.validators import DataRequired
 from jinja2 import TemplateNotFound
-import mysql.connector
 import hashlib 
-from db import create_connection, get_db, close_db, init_db, init_db_command, selectAnnotations
+from bdd import create_connection
 
 class UploadForm(FlaskForm):
     files = MultipleFileField('Files', validators=[DataRequired()])
@@ -57,16 +55,11 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
         self.app.add_url_rule("/sign_up_passed", "sign up passed", self.sign_up_passed)
         self.app.add_url_rule("/upload", "upload", self.upload, methods=["POST", "GET"])
-        self.app.add_url_rule("/ia", "ia", self.ia)
+        self.app.add_url_rule("/ia", "ia", self.ia, methods=["GET", "POST"])
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         self.app.config['SECRET_KEY'] = 'secret_key'
 
-        self.conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        database="db_coral_planters"
-        )
-
+        self.conn = create_connection()
         self.cursor = self.conn.cursor()
 
         return self.__app
@@ -173,27 +166,21 @@ class Server(interfaces.Server_interface):
         except TemplateNotFound:
             abort(404)
 
-    def upload(self):
-        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
-        form = UploadForm()
-
-        if form.validate_on_submit():
-            for file in form.files.data:
-                file.save("static/stock_test")
-            return 'Files uploaded successfully'
-
-        try:
-            return render_template("upload.html", form=form)
-        except TemplateNotFound:
-            abort(404)
-
-
     def ia(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
-        try:
-            return render_template("ia.html")
-        except TemplateNotFound:
-            abort(404)
+        if request.method == "POST":
+            detection = request.form['detection'].split((','))
+            size = request.form.getlist("size[]")
+            trip_start = request.form['trip-start']
+            trip_end = request.form['trip-end']
+            print(detection, size, trip_start, trip_end)
+            """HERE RUN THE FUNCTION WITH PREVIOUS VAR FOR TRAIN THE NEW MODEL"""
+            return redirect('/')
+        elif request.method == "GET":
+            try:
+                return render_template("ia.html")
+            except TemplateNotFound:
+                abort(404)
 
 
     def coral_info(self):
