@@ -14,8 +14,8 @@ def create_connection():
     # YOUR CODE
     return mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="root",
+        user="nom_utilisateur_choisi",
+        password="mot_de_passe_solide",
         database="db_coral_planters",
         auth_plugin='caching_sha2_password'
         )
