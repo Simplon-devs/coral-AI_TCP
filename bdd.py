@@ -75,10 +75,10 @@ def attribute_Pocilopora():
     ))
     WHERE `fragment_id` IS NULL;"""
 
-def user_coral_infos():
+#def user_coral_infos():
     #get informations for client, it'll be a sentence with informations
     #ne pas oublier de les insérer au bon endroit dans le code (!) 
 
-def bbox_coral_reconstit():
+#def bbox_coral_reconstit():
     #display picture with bonding box of coral 
     #ne pas oublier de les insérer au bon endroit dans le code (!)
