@@ -3,7 +3,7 @@ pymysql.install_as_MySQLdb()
 import MySQLdb as MS
 
 def Create_db(db_name):
-    db = MS.connect(host="localhost",user="root",passwd="root")
+    db = MS.connect(host="localhost",user="root",passwd="yes")
     
     #Drop database
     cursor = db.cursor()
