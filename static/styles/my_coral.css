@@ -1,0 +1,29 @@
+.containerMyCoral{
+    width: 100vw;
+    height: 51vh;
+    margin: auto;
+}
+
+.containerMyCoral .containerData{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 15rem));
+    justify-content: center;
+    height: 100%;
+
+}
+
+.cardCoral .photo{
+    width: calc(30% - 1rem);
+}
+
+
+
+.containerData h4 {
+    text-align: center;
+}
+
+.containerData > div > div {
+    font-size: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+}

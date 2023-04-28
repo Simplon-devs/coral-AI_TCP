@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Create account</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/my_coral.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+{% extends "layout.html" %}
+{% block content %}
+    <div class="containerMyCoral">
+        <div class="Title"><h1>Page mon corail</h1></div>
+        <div class="containerData">
+            <div class="dbCoralPlanters">
+                <h4>Utilisateur</h4>
+                <div class="cardUtilisateur">
+                    <div class="username">Username : <span class="usernameJS"></span></div>
+                    <div class="email">email : <span class="emailJS"></span></div>
+                    <div class="register_date">date d'enregistrement : <span class="register_dateJS"></span></div>
+                </div>
+            </div>
+            <div class="appWeb">
+                <h4>Mon corail</h4>
+                <div class="cardCoral">
+                    <div class="name">Nom :</div>
+                    <img class="photo" src="../static/assets/images/testMyCoral.jpg">
+                    <div class="aliveDead">aliveDead</div>
+                    <div class="growth">growth</div>
+                    <div class="date">date</div>
+                </div>
+            </div>
+            <div class="serverImg">
+                <h4>Photos</h4>
+            </div>
+        </div>
+    </div>
+<script src="../static/js/my_coral.js"></script>
+{% endblock %}
+</body>
+</html>
