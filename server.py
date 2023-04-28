@@ -7,6 +7,7 @@ import interfaces
 import mysql as mysql
 import mysql.connector
 from entity.User import User
+from datetime import datetime
 import sqlite3
 
 
@@ -25,6 +26,7 @@ class Server(interfaces.Server_interface):
         self.__logger.setLevel('DEBUG')
         logging.root.handlers = [fh]
         self.connected_user = None
+        role = 'user'
         
 
     @property
@@ -51,20 +53,22 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/sign_in", "sign in", self.sign_in, methods=["GET", "POST"])
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up, methods=["GET", "POST"])
         self.app.add_url_rule("/", "index", self.index)
-        self.app.add_url_rule("/sign_in", "sign in", self.sign_in, methods=["GET", "POST"])
         self.app.add_url_rule("/sign_up", "sign up", self.sign_up)
+        self.app.add_url_rule("/plant_coral", "plant coral", self.feed_buyers_table, methods=["GET", "POST"])
         self.app.add_url_rule("/logout", "logout", self.logout)
         self.app.add_url_rule("/sign_up_passed", "sign up passed", self.sign_up_passed)
         self.app.add_url_rule("/upload", "upload", self.upload)
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
-        self.conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="root",
-        database="db_coral_planters"
-        )
-        self.cursor = self.conn.cursor()
         return self.__app
+
+    def open_conn(self, your_host="localhost", user_name="root", pwd="yes", database="db_coral_planters"):
+            self.conn = mysql.connector.connect(
+                host=your_host,
+                user=user_name,
+                password=pwd,
+                database=database
+            )
+            self.cursor = self.conn.cursor()
 
     def run_test_server(self):
         """Runs the Flask app. For testing purpose only, don't use
@@ -120,8 +124,9 @@ class Server(interfaces.Server_interface):
             abort(404)
     
     def sign_in(self):
-
+        
         self.__logger.info("Running server in debug mode...")
+        self.open_conn()
 
         if request.method == 'POST':
             # Do something with the submitted form data
@@ -141,7 +146,7 @@ class Server(interfaces.Server_interface):
                 #print(self.connected_user)
                 self.conn.close()
 
-                return redirect('/')
+                return redirect("/plant_coral")
             except:
                 return redirect('/sign_in')
         elif request.method == 'GET':
@@ -156,6 +161,7 @@ class Server(interfaces.Server_interface):
     def sign_up(self):
         """Handle both POST and GET requests for creating a new account"""
         print("hello")
+        self.open_conn()
         if request.method == "POST":
             print("post marche")
             # Get the user's data from the form and hash their password
@@ -179,6 +185,41 @@ class Server(interfaces.Server_interface):
             except TemplateNotFound:
                 abort(404)
 
+    def feed_buyers_table(self):
+        
+        self.__logger.info("Running server in debug mode...")
+        self.open_conn()
+
+        if request.method == 'POST':
+            # Do something with the submitted form data
+            adoption_name = request.form['adoption_name']
+            votre_corail = request.form['votre_corail']
+            try:
+    
+                # Obtenir la date et l'heure actuelles
+                now = datetime.now()
+                # Formater la date et l'heure au format souhaité (par exemple, 'YYYY-MM-DD HH:MM:SS')
+                attribution_date = now.strftime('%Y-%m-%d %H:%M:%S')
+
+                # fragment attribution:
+
+
+                self.cursor.execute("INSERT INTO buyers (id_buyers, adoption_name, attribution_date) VALUES (%s, %s, %s, %s)", (self.connected_user.id, adoption_name, votre_corail, attribution_date))
+                print('feed_buyers_table post insert')
+                self.cursor.execute("UPDATE utilisateurs SET role='buyer' WHERE id=%s", (self.connected_user.id,))
+                print('rôle buyers ok')
+                self.conn.commit()
+                self.conn.close()
+
+                return redirect("/")
+            except TemplateNotFound:
+                abort(404)
+        elif request.method == 'GET':
+            try:
+                
+                return render_template("form.html")
+            except TemplateNotFound:
+                abort(404)
 
     def upload(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
@@ -216,3 +257,5 @@ class Server(interfaces.Server_interface):
             return render_template("signed_up_passed.html")
         except TemplateNotFound:
             abort(404)
+
+Server().run_test_server()
