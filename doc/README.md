@@ -230,10 +230,3 @@ répertorie les acheteurs de fragments
 -**attribution_date** : date d'attribution du fragment 
 
 -**updated** : date de mise à jour de la ligne 
-
-
-
-
-
-
-
