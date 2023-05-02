@@ -1,3 +1,4 @@
+import mysql
 import pymysql
 pymysql.install_as_MySQLdb()
 import MySQLdb as MS
@@ -20,10 +21,12 @@ def OpenMydb(db_name):
 
     # Opens the specified database
 
-    db = MS.connect(host="localhost", user="root", passwd="root", db=db_name)
+    db = MS.connect(host="localhost", user="root", passwd="", db=db_name)
+    cursor = db.cursor()
     db.autocommit(True)
     
-    return db
+    return db, cursor
+
 
 
 def Create_table(db_name):

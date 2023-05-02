@@ -4,10 +4,9 @@ from flask import Flask, render_template, abort, request, redirect, url_for, ses
 from jinja2 import TemplateNotFound
 import hashlib
 import interfaces
-import mysql as mysql
-import mysql.connector
 from entity.User import User
 import sqlite3
+from bdd import OpenMydb
 
 
 class Server(interfaces.Server_interface):
@@ -75,14 +74,7 @@ class Server(interfaces.Server_interface):
     #########################################################################
     # ROUTING FUNCTIONS
     #########################################################################
-    def open_conn(self, your_host="localhost", user_name="root", pwd="", database="db_coral_planters"):
-        self.conn = mysql.connector.connect(
-            host=your_host,
-            user=user_name,
-            password=pwd,
-            database=database
-        )
-        self.cursor = self.conn.cursor()
+
     def index(self):
 
         """This method is called when a request is sent to the homepage"""
@@ -134,7 +126,7 @@ class Server(interfaces.Server_interface):
             print("username : ", username, " password : ", hashed_password)
             try:
 
-                self.open_conn()
+                self.conn, self.cursor = OpenMydb('db_coral_planters')
                 sql_query = "SELECT id, username, role, email FROM utilisateurs WHERE username = %s AND password = %s"
                 params = (username, hashed_password)
                 self.cursor.execute(sql_query, params)
@@ -170,7 +162,8 @@ class Server(interfaces.Server_interface):
             hashed_password = hashlib.sha256(password.encode()).hexdigest()
 
             # Insert the user's data into the SQLite database
-            self.open_conn()
+            self.conn, self.cursor = OpenMydb('db_coral_planters')
+
             role = 'user'
             self.cursor.execute("INSERT INTO utilisateurs (username, role, email, password) VALUES (%s, %s, %s, %s)", (username, role, email, hashed_password))
             self.conn.commit()
