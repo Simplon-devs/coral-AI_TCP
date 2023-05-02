@@ -243,6 +243,6 @@ class Server(interfaces.Server_interface):
                 return redirect("/")
             except TemplateNotFound:
                 abort(404)
-
-Server().run_test_server()
+# for xamp utilsator
+# Server().run_test_server()
 
