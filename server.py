@@ -1,14 +1,18 @@
 import logging
 import logging.handlers
-from flask import Flask, render_template, abort, request, redirect, url_for, session, jsonify
-from jinja2 import TemplateNotFound
-import hashlib
+import click
 import interfaces
+from flask import Flask, render_template, abort, request, redirect, url_for, session, jsonify
+from flask_wtf import FlaskForm
+from wtforms import MultipleFileField, SubmitField
+from wtforms.validators import DataRequired
+from jinja2 import TemplateNotFound
+import hashlib 
+from bdd import create_connection
 from entity.User import User
 from datetime import datetime
 import sqlite3
 from bdd import OpenMydb
-
 
 class Server(interfaces.Server_interface):
 
@@ -43,7 +47,7 @@ class Server(interfaces.Server_interface):
 
     def __create_app(self):
         """Create and returns a new Flask app"""
-
+        
         self.__logger.debug("Creating app object")
         self.__app = Flask("The Coral Planters", template_folder='./templates', static_folder='./static')
         self.__app.config['SECRET_KEY'] = 'secret_key'
@@ -57,9 +61,11 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/plant_coral", "plant coral", self.feed_buyers_table, methods=["GET", "POST"])
         self.app.add_url_rule("/logout", "logout", self.logout)
         self.app.add_url_rule("/sign_up_passed", "sign up passed", self.sign_up_passed)
-        self.app.add_url_rule("/upload", "upload", self.upload)
+        self.app.add_url_rule("/upload", "upload", self.upload, methods=["POST", "GET"])
+        self.app.add_url_rule("/ia", "ia", self.ia, methods=["GET", "POST"])
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         self.app.add_url_rule("/my_coral", "my coral", self.my_coral, methods=["GET", "POST"])
+
         return self.__app
 
     def run_test_server(self):
@@ -223,6 +229,22 @@ class Server(interfaces.Server_interface):
             return render_template("upload.html")
         except TemplateNotFound:
             abort(404)
+
+    def ia(self):
+        """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
+        if request.method == "POST":
+            detection = request.form['detection'].split((','))
+            size = request.form.getlist("size[]")
+            trip_start = request.form['trip-start']
+            trip_end = request.form['trip-end']
+            print(detection, size, trip_start, trip_end)
+            """HERE RUN THE FUNCTION WITH PREVIOUS VAR FOR TRAIN THE NEW MODEL"""
+            return redirect('/')
+        elif request.method == "GET":
+            try:
+                return render_template("ia.html")
+            except TemplateNotFound:
+                abort(404)
 
 
     def coral_info(self):
