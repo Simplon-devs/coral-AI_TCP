@@ -1,0 +1,41 @@
+name: Website test
+on: 
+  push:
+    branches:
+      - "Team-DW"
+      - "feat/pipeline_website"
+  pull_request:
+    branches:
+      - "Team-DW"
+jobs:
+  connect-remote:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        # Run in all these versions of Python
+        python-version: [3.8]
+
+
+    steps:
+      # Setup which version of Python to use
+      - name: Checkout repository files
+        uses: actions/checkout@v2
+      - name: Set Up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+            python-version: ${{ matrix.python-version }}
+
+      #  Display the Python version being used
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
+
+        # Install requirements.txt
+      - name: Install requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: test website
+        run: |
+          pytest test_website.py 
