@@ -161,9 +161,7 @@ class Server(interfaces.Server_interface):
 
     def sign_up(self):
         """Handle both POST and GET requests for creating a new account"""
-        print("hello")
         if request.method == "POST":
-            print("post marche")
             # Get the user's data from the form and hash their password
             username = request.form['username']
             email = request.form['email']
@@ -182,13 +180,14 @@ class Server(interfaces.Server_interface):
             return render_template("sign_up_passed.html")
 
         elif request.method == "GET":
-            print("get marche")
-            # If the request method is GET, render the sign_up.html template
-            try:
-                return render_template("sign_up.html")
-            except TemplateNotFound:
-                abort(404)
-
+            if self.connected_user == None:
+                # If the request method is GET, render the sign_up.html template
+                try:
+                    return render_template("sign_up.html")
+                except TemplateNotFound:
+                    abort(404)
+            else:
+                return redirect('/')
 
     def upload(self):
         """TO BE MODIFIED TO HANDLE BOTH POST AND GET REQUESTS"""
