@@ -258,4 +258,5 @@ class Server(interfaces.Server_interface):
         except TemplateNotFound:
             abort(404)
 
-Server().run_test_server()
+# uncomment for xamp server user
+#Server().run_test_server()
