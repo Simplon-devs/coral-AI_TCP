@@ -259,4 +259,4 @@ class Server(interfaces.Server_interface):
 
 
 # for xamp utilsator
-Server().run_test_server()
+# Server().run_test_server()
