@@ -59,6 +59,7 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/upload", "upload", self.upload)
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         self.app.add_url_rule("/my_coral", "my coral", self.my_coral, methods=["GET", "POST"])
+
         return self.__app
 
     def run_test_server(self):
@@ -125,7 +126,6 @@ class Server(interfaces.Server_interface):
             hashed_password = hashlib.sha256(password.encode()).hexdigest()
             print("username : ", username, " password : ", hashed_password)
             try:
-
                 self.conn, self.cursor = OpenMydb('db_coral_planters')
                 sql_query = "SELECT id, username, role, email FROM utilisateurs WHERE username = %s AND password = %s"
                 params = (username, hashed_password)
@@ -135,7 +135,7 @@ class Server(interfaces.Server_interface):
                 self.connected_user = User(res[0][0], res[0][1], res[0][2], res[0][3])
                 session['logged_in'] = True
 
-                print(self.connected_user)
+                #print(self.connected_user)
                 self.conn.close()
 
                 return redirect('/')
