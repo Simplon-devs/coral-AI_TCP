@@ -62,15 +62,6 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/my_coral", "my coral", self.my_coral, methods=["GET", "POST"])
         return self.__app
 
-    def open_conn(self, your_host="localhost", user_name="root", pwd="root", database="db_coral_planters"):
-            self.conn = mysql.connector.connect(
-                host=your_host,
-                user=user_name,
-                password=pwd,
-                database=database
-            )
-            self.cursor = self.conn.cursor()
-
     def run_test_server(self):
         """Runs the Flask app. For testing purpose only, don't use
         that in production"""
