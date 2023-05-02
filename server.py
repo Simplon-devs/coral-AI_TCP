@@ -61,7 +61,7 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
         return self.__app
 
-    def open_conn(self, your_host="localhost", user_name="root", pwd="yes", database="db_coral_planters"):
+    def open_conn(self, your_host="localhost", user_name="root", pwd="root", database="db_coral_planters"):
             self.conn = mysql.connector.connect(
                 host=your_host,
                 user=user_name,
