@@ -128,12 +128,13 @@ class Server(interfaces.Server_interface):
                 print("username : ", username, " password : ", hashed_password)
                 try:
                     self.conn, self.cursor = OpenMydb('db_coral_planters')
-                    sql_query = "SELECT id, username, role, email FROM utilisateurs WHERE username = %s AND password = %s"
+                    sql_query = "SELECT id, username, role, email, register_date FROM utilisateurs WHERE username = %s AND password = %s"
                     params = (username, hashed_password)
                     self.cursor.execute(sql_query, params)
                     res = self.cursor.fetchall()
                     print(res)
-                    self.connected_user = User(res[0][0], res[0][1], res[0][2], res[0][3])
+                    print(res[0][4])
+                    self.connected_user = User(res[0][0], res[0][1], res[0][2], res[0][3], res[0][4])
                     session['logged_in'] = True
 
                     # print(self.connected_user)
