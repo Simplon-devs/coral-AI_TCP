@@ -13,7 +13,7 @@
 {% extends "layout.html" %}
 {% block content %}
     <div class="containerMyCoral">
-        <div class="Title"><h1>Page mon corail</h1></div>
+        <div class="title"><h1>Mon corail</h1></div>
         <div class="containerData">
             <div class="dbCoralPlanters">
                 <h4>Utilisateur</h4>
@@ -27,7 +27,6 @@
                 <h4>Mon corail</h4>
                 <div class="cardCoral">
                     <div class="name">Nom :</div>
-                    <img class="photo" src="../static/assets/images/testMyCoral.jpg">
                     <div class="aliveDead">aliveDead</div>
                     <div class="growth">growth</div>
                     <div class="date">date</div>
@@ -35,10 +34,15 @@
             </div>
             <div class="serverImg">
                 <h4>Photos</h4>
+                <div class="containerPhoto">
+                    <div>
+                        <img class="photo" src="../static/assets/images/testMyCoral.jpg">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-<script src="../static/js/my_coral.js"></script>
+    <script src="../static/js/my_coral.js"></script>
 {% endblock %}
 </body>
 </html>
