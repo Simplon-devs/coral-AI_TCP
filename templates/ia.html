@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Learn IA</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/ia.css') }}">
+</head>
+
+<body>
+    {% extends "layout.html" %}
+
+    {% block content %}
+
+    <div id="space" style='background-image: url(&quot;{{ url_for("static",filename="assets/bg_ia.jpg") }}&quot;);'>
+
+        <div class="container mt-5">
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+
+                    <form method="post">
+
+                        <div class="mb-3">
+
+                            <label for="detection-select" class="form-label">Choose the detection:</label>
+                            <select name="detection" id="detection-select" class="form-select">
+                                <option value="">--Please choose an option--</option>
+                                <option value="frame_bar">Frame Bar</option>
+                                <option value="coral">Coral</option>
+                                <option value="coral">Frame Bar & Coral</option>
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">Choose the size:</label>
+
+                            <div class="form-check">
+                                <input type="checkbox" id="small" name="size[]" value="small" class="form-check-input">
+                                <label for="small" class="form-check-label">Small</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" id="medium" name="size[]" value="medium" class="form-check-input">
+                                <label for="medium" class="form-check-label">Medium</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" id="large" name="size[]" value="large" class="form-check-input">
+                                <label for="large" class="form-check-label">Large</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" id="heart" name="size[]" value="heart" class="form-check-input">
+                                <label for="heart" class="form-check-label">Heart</label>
+                            </div>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="start" class="form-label">Start date:</label>
+                            <input type="date" id="start" name="trip-start" class="form-control" value="2023-04-25"
+                                min="2016-01-01" max="2050-12-31">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="end" class="form-label">End date:</label>
+                            <input type="date" id="end" name="trip-end" class="form-control" value="2023-04-25"
+                                min="2016-01-01" max="2050-12-31">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Launch AI Training</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock %}
+
+</body>
+
+</html>

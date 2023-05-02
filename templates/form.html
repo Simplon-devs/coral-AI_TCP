@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>The Coral Planters</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}" />
+        <script src="{{ url_for('static',filename='js/index.js') }}"></script>
+    </head>
+<body>
+    {% extends "layout.html" %}
+    {% block content %}
+    <div class="content" style='background-image: url(&quot;{{url_for("static",filename="assets/bg.jpg")}}&quot;);'>
+        <div class="top">
+            <h1>Parainer un fragment</h1>
+        </div>  
+        <form method="POST" class="formulaire">
+            <div class="put">
+                <input type="text" name="adoption_name" placeholder="adoption_name" class="transparent-input">
+                <br>
+                <select name="votre_corail" id="lang">
+                    <option value="acropora_humilis">acropora_humilis</option>
+                    <option value="acropora_digitifera">acropora_humilis</option>
+                    <option value="acropora_cytherea">acropora_cytherea</option>
+                    <option value="acropora_nasuta">acropora_nasuta</option>
+                    <option value="acropora_secale">acropora_secale</option>
+                    <option value="acropora_hyacinthus">acropora_hyacinthus</option>
+                  </select>
+            </div>
+            <input class="sub" type="submit">ADD TO CARD</input>
+        </form>
+    </div>
+    {% endblock %}
+</body>
+</html>
