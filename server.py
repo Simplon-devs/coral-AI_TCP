@@ -1,13 +1,12 @@
 import logging
 import logging.handlers
-from flask import Flask, render_template, abort, request, redirect, url_for, session
+from flask import Flask, render_template, abort, request, redirect, url_for, session, jsonify
 from jinja2 import TemplateNotFound
 import hashlib
 import interfaces
-import mysql as mysql
-import mysql.connector
 from entity.User import User
 import sqlite3
+from bdd import OpenMydb
 
 
 class Server(interfaces.Server_interface):
@@ -25,6 +24,8 @@ class Server(interfaces.Server_interface):
         self.__logger.setLevel('DEBUG')
         logging.root.handlers = [fh]
         self.connected_user = None
+        self.conn = None
+        self.cursor = None
         
 
     @property
@@ -57,13 +58,8 @@ class Server(interfaces.Server_interface):
         self.app.add_url_rule("/sign_up_passed", "sign up passed", self.sign_up_passed)
         self.app.add_url_rule("/upload", "upload", self.upload)
         self.app.add_url_rule("/coral_info", "Show coral info", self.coral_info)
-        self.conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="root",
-        database="db_coral_planters"
-        )
-        self.cursor = self.conn.cursor()
+        self.app.add_url_rule("/my_coral", "my coral", self.my_coral, methods=["GET", "POST"])
+
         return self.__app
 
     def run_test_server(self):
@@ -99,7 +95,7 @@ class Server(interfaces.Server_interface):
             img = img.resize((300, 300))
             img.save("static/assets/photo_test.jpg")
 
-            
+
             with open("static/assets/photo_test.jpg", 'rb') as image:
                 content = b64encode(image.read()).decode("utf-8")
 
@@ -130,11 +126,12 @@ class Server(interfaces.Server_interface):
             hashed_password = hashlib.sha256(password.encode()).hexdigest()
             print("username : ", username, " password : ", hashed_password)
             try:
+                self.conn, self.cursor = OpenMydb('db_coral_planters')
                 sql_query = "SELECT id, username, role, email FROM utilisateurs WHERE username = %s AND password = %s"
                 params = (username, hashed_password)
                 self.cursor.execute(sql_query, params)
                 res = self.cursor.fetchall()
-                #print(res)
+                print(res)
                 self.connected_user = User(res[0][0], res[0][1], res[0][2], res[0][3])
                 session['logged_in'] = True
 
@@ -165,8 +162,11 @@ class Server(interfaces.Server_interface):
             hashed_password = hashlib.sha256(password.encode()).hexdigest()
 
             # Insert the user's data into the SQLite database
-            self.cursor.execute("INSERT INTO utilisateurs (username, email, password) VALUES (%s, %s, %s)", (username, email, hashed_password))
-            self.conn.commit()
+            self.conn, self.cursor = OpenMydb('db_coral_planters')
+
+            role = 'user'
+            self.cursor.execute("INSERT INTO utilisateurs (username, role, email, password) VALUES (%s, %s, %s, %s)", (username, role, email, hashed_password))
+
             self.conn.close()
 
             return render_template("sign_up_passed.html")
@@ -216,3 +216,33 @@ class Server(interfaces.Server_interface):
             return render_template("signed_up_passed.html")
         except TemplateNotFound:
             abort(404)
+
+    def my_coral(self):
+        """Handle both POST and GET requests for creating a new account"""
+        print("my_coral")
+        if self.connected_user is not None:
+            if request.method == "POST":
+                print("post my_coral")
+                print(self.connected_user.to_dict())
+
+                print(jsonify(self.connected_user.to_dict()))
+
+
+                # return the data as JSON response
+                return jsonify(self.connected_user.to_dict())
+
+            elif request.method == "GET":
+                print("get my_coral")
+                # If the request method is GET, render the sign_up.html template
+                try:
+                    return render_template("my_coral.html")
+                except TemplateNotFound:
+                    abort(404)
+        else :
+            try:
+                return redirect("/")
+            except TemplateNotFound:
+                abort(404)
+# for xamp utilsator
+# Server().run_test_server()
+
