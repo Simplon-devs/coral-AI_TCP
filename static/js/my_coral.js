@@ -11,7 +11,6 @@ class User {
 
 fetch('/my_coral', {
     method: 'POST',
-    body: JSON.stringify({name: 'John', age: 30})
 })
     .then(response => response.json())
     .then(data => {

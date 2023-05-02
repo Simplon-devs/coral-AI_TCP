@@ -21,7 +21,7 @@ def OpenMydb(db_name):
 
     # Opens the specified database
 
-    db = MS.connect(host="localhost", user="root", passwd="root", db=db_name)
+    db = MS.connect(host="localhost", user="root", passwd="", db=db_name)
     cursor = db.cursor()
     db.autocommit(True)
     
