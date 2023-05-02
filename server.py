@@ -166,7 +166,7 @@ class Server(interfaces.Server_interface):
 
             role = 'user'
             self.cursor.execute("INSERT INTO utilisateurs (username, role, email, password) VALUES (%s, %s, %s, %s)", (username, role, email, hashed_password))
-            self.conn.commit()
+
             self.conn.close()
 
             return render_template("sign_up_passed.html")
